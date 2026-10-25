@@ -146,3 +146,16 @@ $wgCaptchaQuestions = [
 ## Extensions (see extensions.md for where each comes from and its pinned version)
 # <choose uncached> on the Main Page: a new featured pick on every visit.
 wfLoadExtension( 'RandomSelection' );
+
+# OAuth: lets the MCP connector sign in as a wiki account (item 12). Only admins can register
+# and approve apps. The signing keys live in wiki/secrets/ (gitignored), mounted read-only.
+wfLoadExtension( 'OAuth' );
+$wgOAuth2EnabledGrantTypes = [ 'authorization_code', 'refresh_token' ];
+$wgOAuth2PrivateKey = file_get_contents( '/var/www/secrets/oauth2-private.key' );
+$wgOAuth2PublicKey = file_get_contents( '/var/www/secrets/oauth2-public.key' );
+foreach ( [ 'mwoauthproposeconsumer', 'mwoauthupdateownconsumer', 'mwoauthmanageconsumer', 'mwoauthviewprivate' ] as $right ) {
+	$wgGroupPermissions['sysop'][$right] = true;
+}
+# Apps only keep the rights their grants list. Our custom "editcontent" (see Permissions) is in no
+# built-in grant, so add it to "Edit existing pages"; without it a connected app can't edit content.
+$wgGrantPermissions['editpage']['editcontent'] = true;

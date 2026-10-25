@@ -1,0 +1,15 @@
+{
+	"defaultWiki": "snap.amburgey.dev",
+	"allowWikiManagement": false,
+	"uploadDirs": [ "/uploads" ],
+	"wikis": {
+		"snap.amburgey.dev": {
+			"sitename": "SNAP",
+			"server": "https://snap.amburgey.dev",
+			"articlepath": "/wiki",
+			"scriptpath": "/w",
+			"private": true,
+			"oauth2ClientId": "${MCP_OAUTH2_CLIENT_ID}"
+		}
+	}
+}

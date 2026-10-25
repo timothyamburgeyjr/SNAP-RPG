@@ -2,6 +2,7 @@
 .env
 .env.*
 !.env.example
+wiki/secrets/
 
 # Wiki runtime data: lives in Docker volumes; backups go to wiki/backups (see wiki/README.md)
 wiki/backups/

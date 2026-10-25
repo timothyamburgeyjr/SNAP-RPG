@@ -19,6 +19,17 @@ backup from before the change: `config.yml.bak-presnap`), and DNS is a proxied C
 `cloudflared tunnel route dns`. cloudflared does not reload its config on its own: restarting the
 "Cloudflared Vault Tunnel" scheduled task applies changes, and briefly interrupts every site on that tunnel.
 
+## Claude connector (MCP)
+The `mcp` service is the MediaWiki MCP Server (pinned in `compose.yaml`), settings in `mcp/config.json`.
+claude.ai custom connector URL: `https://snap-mcp.amburgey.dev/mcp` (second route in the same tunnel, to 127.0.0.1:8181).
+- Nothing works without signing in through the wiki (`"private": true`); edits are made as the account that signed in.
+  The connector signs in as **SNAP Claude** (administrator; not bureaucrat or interface admin).
+- The OAuth app is "SNAP MCP connector" (Special:OAuthListConsumers). Its ID and secret are in `.env`;
+  the wiki's OAuth signing keys are in `secrets/` (both gitignored).
+- To cut Claude off: remove the connector in claude.ai, or as Captain Trips disable the app at
+  Special:OAuthManageConsumers, or take SNAP Claude out of the administrator group.
+- Claude can upload files only from the repo's `files/` folder (mounted read-only) or from a web address.
+
 ## Start and stop (in this folder)
     docker compose up -d --build
     docker compose down

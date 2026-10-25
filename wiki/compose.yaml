@@ -21,6 +21,7 @@ services:
       - ./LocalSettings.php:/var/www/html/w/LocalSettings.php:ro
       - ./branding:/var/www/html/w/branding:ro
       - ./theme:/var/www/html/w/theme:ro
+      - ./secrets:/var/www/secrets:ro   # OAuth signing keys (gitignored)
   db:
     image: mariadb:11.4.13
     restart: unless-stopped
@@ -36,6 +37,26 @@ services:
       interval: 10s
       timeout: 5s
       retries: 10
+  # MCP server (item 12): lets Claude read and edit the wiki through a claude.ai custom connector.
+  # Everyone must sign in through the wiki's OAuth first (config: "private": true). Edits are made
+  # as the signed-in account. Public address: https://snap-mcp.amburgey.dev/mcp (Cloudflare tunnel).
+  mcp:
+    image: ghcr.io/professionalwiki/mediawiki-mcp-server:0.19.0
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:8181:8080"   # this machine only; the Cloudflare tunnel connects here
+    environment:
+      MCP_PUBLIC_URL: https://snap-mcp.amburgey.dev/mcp
+      MCP_ALLOWED_HOSTS: snap-mcp.amburgey.dev,localhost
+      MCP_MAX_REQUEST_BODY: 5mb
+      MCP_OAUTH_JWT_SIGNING_KEY: ${MCP_OAUTH_JWT_SIGNING_KEY}
+      MCP_OAUTH2_CLIENT_ID: ${MCP_OAUTH2_CLIENT_ID}
+      MCP_OAUTH2_CLIENT_SECRET: ${MCP_OAUTH2_CLIENT_SECRET}
+    volumes:
+      - ./mcp/config.json:/app/config.json:ro
+      - ../files:/uploads:ro    # Claude can upload master files from files/, nothing else
+      - mcp-data:/app/data      # sign-in state (encrypted)
 volumes:
   images:
   db:
+  mcp-data:

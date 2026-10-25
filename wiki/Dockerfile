@@ -20,3 +20,11 @@ RUN set -eux; \
     curl -fsSL "https://gerrit.wikimedia.org/r/plugins/gitiles/mediawiki/extensions/RandomSelection/+archive/d559bf2f49f1b39fd407a56ceeabbb3845ea0364.tar.gz" \
         | tar -xz -C /var/www/html/w/extensions/RandomSelection; \
     test -f /var/www/html/w/extensions/RandomSelection/extension.json
+
+# OAuth (item 12): lets the MCP connector sign in as a wiki account. Official 1.43 bundle
+# (includes its vendor libraries), checked against the checksum recorded when it was chosen.
+RUN set -eux; \
+    curl -fsSL -o /tmp/OAuth.tar.gz "https://extdist.wmflabs.org/dist/extensions/OAuth-REL1_43-ce3cc80.tar.gz"; \
+    echo "a404374a72c8c3a8a93504cd2405cc0a27472b799a8bc27eec919c3867ec94e5  /tmp/OAuth.tar.gz" | sha256sum -c -; \
+    tar -xzf /tmp/OAuth.tar.gz -C /var/www/html/w/extensions; \
+    rm /tmp/OAuth.tar.gz
