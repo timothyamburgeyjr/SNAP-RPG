@@ -53,6 +53,35 @@ $wgMaxUploadSize = 100 * 1024 * 1024;
 wfLoadSkin( 'Vector' );
 $wgDefaultSkin = 'vector-2022';
 
+## Branding: the A icon, SNAP wordmark and tagline (Vector 2022 lays them out), favicon
+$wgLogos = [
+	'icon' => "$wgScriptPath/branding/icon.svg",
+	'wordmark' => [
+		'src' => "$wgScriptPath/branding/wordmark.svg",
+		'width' => 102,
+		'height' => 34,
+	],
+	'tagline' => [
+		'src' => "$wgScriptPath/branding/tagline.svg",
+		'width' => 102,
+		'height' => 11,
+	],
+	// legacy fallback for skins that still use a single logo
+	'1x' => "$wgScriptPath/branding/logo-135.png",
+];
+$wgFavicon = "$wgScriptPath/branding/favicon.ico";
+$wgAppleTouchIcon = "$wgScriptPath/branding/apple-touch-icon.png";
+
+## Cream theme: loaded on every page as a ResourceLoader style module
+$wgResourceModules['snap.theme'] = [
+	'localBasePath' => "$IP/theme",
+	'remoteBasePath' => "$wgScriptPath/theme",
+	'styles' => [ 'snap-theme.css' ],
+];
+$wgHooks['BeforePageDisplay'][] = static function ( $out ) {
+	$out->addModuleStyles( 'snap.theme' );
+};
+
 ## Permissions
 ## Anyone can read and create an account. Accounts can discuss on talk pages.
 ## Only the "writer" group and admins can edit content, upload or move pages.

@@ -20,6 +20,7 @@ services:
       - images:/var/www/html/w/images
       - ./LocalSettings.php:/var/www/html/w/LocalSettings.php:ro
       - ./branding:/var/www/html/w/branding:ro
+      - ./theme:/var/www/html/w/theme:ro
   db:
     image: mariadb:11.4.13
     restart: unless-stopped
