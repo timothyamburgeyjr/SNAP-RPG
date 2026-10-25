@@ -1,0 +1,40 @@
+# SNAP wiki. Start: docker compose up -d   Stop: docker compose down   (run in this folder)
+# Secrets come from wiki/.env (gitignored); see .env.example.
+name: snap-wiki
+services:
+  mediawiki:
+    build: .
+    image: snap-wiki:1.43.11
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:8180:80"   # this machine only; the Cloudflare tunnel connects here
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      MW_SERVER: ${MW_SERVER:-}
+      MW_DB_PASSWORD: ${MW_DB_PASSWORD}
+      MW_SECRET_KEY: ${MW_SECRET_KEY}
+      MW_UPGRADE_KEY: ${MW_UPGRADE_KEY}
+    volumes:
+      - images:/var/www/html/w/images
+      - ./LocalSettings.php:/var/www/html/w/LocalSettings.php:ro
+      - ./branding:/var/www/html/w/branding:ro
+  db:
+    image: mariadb:11.4.13
+    restart: unless-stopped
+    environment:
+      MARIADB_ROOT_PASSWORD: ${MW_DB_ROOT_PASSWORD}
+      MARIADB_DATABASE: snapwiki
+      MARIADB_USER: snapwiki
+      MARIADB_PASSWORD: ${MW_DB_PASSWORD}
+    volumes:
+      - db:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+volumes:
+  images:
+  db:

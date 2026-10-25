@@ -1,0 +1,21 @@
+# Secrets: never in git
+.env
+.env.*
+!.env.example
+
+# Wiki runtime data: lives in Docker volumes; backups go to wiki/backups (see wiki/README.md)
+wiki/backups/
+wiki/data/
+*.sql
+*.sql.gz
+
+# Paper-skin preview options (Tim picks one; only the chosen one is kept)
+wiki/theme/preview/
+
+# OS / editor / tooling
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+node_modules/
+__pycache__/

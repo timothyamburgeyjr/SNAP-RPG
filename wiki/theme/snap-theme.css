@@ -1,0 +1,43 @@
+/* SNAP wiki - cream theme
+ *
+ * Replaces the white page surface with the SNAP cream (#f6f2ea) in Vector 2022.
+ * Works by overriding the skin's CSS custom properties (Codex design tokens).
+ *
+ * Dark mode: Vector's own night palettes are defined on html.skin-theme-clientpref-night and
+ * html.skin-theme-clientpref-os, which are more specific than :root, so they still win and
+ * dark mode keeps its own colors. This file therefore only changes light mode.
+ *
+ * Palette
+ *   cream        #f6f2ea   article surface            (contrast with body text #202122: 14.4:1)
+ *   gutter       #ece6d8   page background / panels
+ *   hover        #e3dccb   tabs, hover, framed buttons
+ *   border       #a89f8c   standard borders
+ *   border-soft  #cfc6b3   subtle borders
+ *   slate        #39434c   headings, brand
+ *   orange       #f0502c   accents only - NOT for text (3.2:1 on cream, fails 4.5:1)
+ *
+ * Links stay Vector's default blue (4.8:1 on cream). Do not recolor links orange: it
+ * would read as MediaWiki's red link for a page that does not exist.
+ */
+
+:root {
+	--background-color-base: #f6f2ea;
+	--background-color-neutral-subtle: #ece6d8;
+	--background-color-neutral: #e3dccb;
+	--border-color-base: #a89f8c;
+	--border-color-subtle: #cfc6b3;
+	--border-color-muted: #cfc6b3;
+}
+
+/* make sure the page gutter follows the variable even where the skin hard-codes it */
+html,
+body {
+	background-color: var(--background-color-neutral-subtle);
+}
+
+/* brand touches (colors only, no layout) */
+.mw-body h1,
+.mw-body-content h1,
+.mw-body-content h2 {
+	color: #39434c;
+}

@@ -1,0 +1,119 @@
+/* SNAP wiki - paper skin (STARTER, untested on a live wiki)
+ *
+ * Goes on top of snap-theme.css (the cream colors). This adds the "worn paper" feel:
+ * a faint paper grain in the page margins, a hand-ruled double border, a dog-eared
+ * corner, and classes for the Main Page boxes and the Live Protocol box.
+ *
+ * EASY ON THE EYES, ON PURPOSE
+ *  - The grain only sits behind the page margins and the page frame. Text areas stay flat.
+ *  - The grain is very low contrast (a few levels of brightness, not a pattern you can read).
+ *  - Body text keeps its 14:1 contrast on cream. No animation, no gradients behind text
+ *    except the banner, where the text sits on a darkened, calm part of the picture.
+ *  - Readers who set their device to "more contrast" get no texture at all.
+ *
+ * Selectors that name skin parts (.mw-body etc.) must be checked in the browser inspector
+ * on the running wiki. Colors and our own .snap-* classes do not depend on the skin.
+ */
+
+:root {
+	--snap-slate: #39434c;
+	--snap-orange-deep: #b3391a;
+	--snap-amber: #a86a00;
+	--snap-rule: #a89f8c;
+	--snap-rule-soft: #cfc6b3;
+}
+
+/* paper grain behind the page margins (light mode only; dark mode keeps its own palette) */
+@media (prefers-color-scheme: light) {
+	html.skin-theme-clientpref-day,
+	html.skin-theme-clientpref-os {
+		background-image: url('paper/paper-gutter.png');
+	}
+}
+
+/* the page: hand-ruled double border, tiny irregular corners so it does not look machine-drawn */
+.mw-body {
+	background-image: url('paper/paper-page.png');
+	border: 1px solid var(--snap-rule);
+	border-radius: 2px 3px 2px 4px / 3px 2px 4px 2px;
+	box-shadow: inset 0 0 0 5px var(--background-color-base, #f6f2ea), inset 0 0 0 6px var(--snap-rule-soft);
+	position: relative;
+}
+
+/* dog-eared corner (decorative only) */
+.mw-body::after {
+	content: '';
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 44px;
+	height: 44px;
+	background: linear-gradient(135deg, var(--background-color-neutral-subtle, #ece6d8) 50%, #e3dccb 50%);
+	border-top: 1px solid var(--snap-rule);
+	border-left: 1px solid var(--snap-rule);
+	pointer-events: none;
+}
+
+/* serif headings with a thin rule, like a printed book */
+.mw-body h1,
+.mw-body h2 {
+	font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif;
+	color: var(--snap-slate);
+	border-bottom: 1px solid var(--snap-rule);
+}
+
+/* ---- Main Page building blocks (use these class names in the wiki markup) ---- */
+
+/* welcome banner: picture with a calm dark panel on the left for the text */
+.snap-banner {
+	position: relative;
+	min-height: 176px;
+	background: url('paper/welcome-banner-B.jpg') center / cover no-repeat;
+	color: #f6f2ea;
+}
+.snap-banner::before {
+	content: '';
+	position: absolute;
+	inset: 0;
+	background: linear-gradient(90deg, rgba(23, 28, 33, 0.9), rgba(23, 28, 33, 0.55) 55%, rgba(23, 28, 33, 0));
+}
+.snap-banner > * { position: relative; }
+
+/* banded box: a colored title strip over a flat page-colored body */
+.snap-box { border: 1px solid var(--snap-rule); margin: 0 0 1em; }
+.snap-box > .snap-box-title {
+	background: var(--snap-slate);
+	color: #f6f2ea;
+	font-family: Georgia, serif;
+	font-weight: bold;
+	padding: 0.35em 0.8em;
+}
+.snap-box.snap-settings > .snap-box-title { background: var(--snap-orange-deep); }
+.snap-box > .snap-box-body { padding: 0.6em 0.9em; }
+
+/* Live Protocol: standing procedure, visually distinct from story/history pages.
+   Amber on purpose: a red border could be mistaken for a missing-page red link. */
+.snap-protocol {
+	border: 1px solid var(--snap-amber);
+	border-left: 7px solid var(--snap-amber);
+	padding: 0.6em 0.9em;
+	margin: 1em 0;
+}
+.snap-protocol > .snap-protocol-label {
+	display: inline-block;
+	background: var(--snap-slate);
+	color: #f6f2ea;
+	font-weight: bold;
+	font-size: 0.8em;
+	letter-spacing: 0.04em;
+	padding: 0.1em 0.6em;
+	margin-right: 0.6em;
+}
+
+/* readers who ask their device for more contrast get a plain page: no texture, no folds */
+@media (prefers-contrast: more) {
+	html.skin-theme-clientpref-day,
+	html.skin-theme-clientpref-os { background-image: none; }
+	.mw-body { background-image: none; }
+	.mw-body::after { display: none; }
+}
