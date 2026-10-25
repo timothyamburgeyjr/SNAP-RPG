@@ -94,7 +94,7 @@ $wgAppleTouchIcon = "$wgScriptPath/branding/apple-touch-icon.png";
 $wgResourceModules['snap.theme'] = [
 	'localBasePath' => "$IP/theme",
 	'remoteBasePath' => "$wgScriptPath/theme",
-	'styles' => [ 'snap-theme.css' ],
+	'styles' => [ 'snap-theme.css', 'snap-mainpage.css' ],
 ];
 $wgHooks['BeforePageDisplay'][] = static function ( $out ) {
 	$out->addModuleStyles( 'snap.theme' );
@@ -143,4 +143,6 @@ $wgCaptchaQuestions = [
 	'What color is the bar across the A in the SNAP logo?' => 'orange',
 ];
 
-## Extensions: none yet beyond the bundled ones above (see extensions.md)
+## Extensions (see extensions.md for where each comes from and its pinned version)
+# <choose uncached> on the Main Page: a new featured pick on every visit.
+wfLoadExtension( 'RandomSelection' );

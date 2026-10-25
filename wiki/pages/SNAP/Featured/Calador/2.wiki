@@ -1,0 +1,4 @@
+<div class="snap-pick-title">[[The Commonwealth]]</div>
+Placeholder: a second Calador blurb, so the pick changes between visits.
+
+'''[[The Commonwealth|Read the full article…]]'''

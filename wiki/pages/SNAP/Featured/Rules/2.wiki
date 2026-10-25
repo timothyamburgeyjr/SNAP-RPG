@@ -1,0 +1,4 @@
+<div class="snap-pick-title">[[Rolling the dice]]</div>
+Placeholder: a second rules blurb, so the pick changes between visits.
+
+'''[[Rolling the dice|Read the full article…]]'''

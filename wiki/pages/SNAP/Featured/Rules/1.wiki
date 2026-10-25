@@ -1,0 +1,4 @@
+<div class="snap-pick-title">[[How to play]]</div>
+Placeholder: a short blurb from a rules page appears here, with a link to the full page.
+
+'''[[How to play|Read the full article…]]'''

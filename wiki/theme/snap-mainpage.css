@@ -1,0 +1,105 @@
+/* SNAP wiki - Main Page boxes
+ *
+ * Wikipedia's Main Page layout in the SNAP palette: a welcome box, two columns of boxes
+ * with pale tinted header bars (slate for the rules, orange for the settings), and a
+ * full-width box at the bottom. The columns stack into one on narrow screens.
+ *
+ * Header text is the normal body colour on a pale tint (well over 7:1), never orange text.
+ * Dark mode gets deep tints of the same two colours.
+ */
+
+:root {
+	--snap-rules-tint: #dfe3e7;
+	--snap-rules-edge: #b7c0c8;
+	--snap-settings-tint: #f7ddd2;
+	--snap-settings-edge: #e3ae98;
+}
+
+html.skin-theme-clientpref-night {
+	--snap-rules-tint: #262d33;
+	--snap-rules-edge: #3c4750;
+	--snap-settings-tint: #3a241c;
+	--snap-settings-edge: #6b3a28;
+}
+
+@media (prefers-color-scheme: dark) {
+	html.skin-theme-clientpref-os {
+		--snap-rules-tint: #262d33;
+		--snap-rules-edge: #3c4750;
+		--snap-settings-tint: #3a241c;
+		--snap-settings-edge: #6b3a28;
+	}
+}
+
+.snap-welcome {
+	margin: 0 0 1em;
+	padding: 0.8em 1em 1em;
+	text-align: center;
+	background-color: var(--background-color-neutral-subtle);
+	border: 1px solid var(--border-color-subtle);
+}
+
+.snap-welcome-title {
+	font-size: 1.8em;
+	line-height: 1.3;
+}
+
+.snap-welcome-sub {
+	font-size: 1.1em;
+	margin-top: 0.2em;
+}
+
+.snap-welcome-count {
+	font-size: 0.9em;
+	margin-top: 0.3em;
+}
+
+.snap-columns {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0 1em;
+}
+
+.snap-column {
+	flex: 1 1 22em;
+	min-width: 0;
+}
+
+.snap-box {
+	margin: 0 0 1em;
+	padding: 0 0.8em 0.5em;
+	border: 1px solid var(--border-color-subtle);
+}
+
+.snap-box-title {
+	margin: 0.4em -0.4em 0.6em;
+	padding: 0.2em 0.5em;
+	font-size: 1.15em;
+	font-weight: bold;
+	border: 1px solid var(--border-color-subtle);
+	background-color: var(--background-color-neutral-subtle);
+}
+
+.snap-rules .snap-box-title {
+	background-color: var(--snap-rules-tint);
+	border-color: var(--snap-rules-edge);
+}
+
+.snap-settings .snap-box-title {
+	background-color: var(--snap-settings-tint);
+	border-color: var(--snap-settings-edge);
+}
+
+.snap-pick-note {
+	float: right;
+	margin-top: 0.25em;
+	font-size: 0.75em;
+	font-weight: normal;
+	color: var(--color-subtle);
+}
+
+.snap-pick-title {
+	font-size: 1.15em;
+	font-weight: bold;
+	margin-bottom: 0.3em;
+}

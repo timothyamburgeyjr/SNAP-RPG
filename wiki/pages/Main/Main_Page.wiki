@@ -1,0 +1,48 @@
+__NOTOC__ __NOEDITSECTION__
+<div class="snap-welcome">
+<div class="snap-welcome-title">Welcome to SNAP</div>
+<div class="snap-welcome-sub">A free tabletop RPG. Pull up a chair. We made this for you.</div>
+<div class="snap-welcome-count">[[Special:AllPages|{{NUMBEROFARTICLES}} {{PLURAL:{{NUMBEROFARTICLES:R}}|page|pages}}]] and growing</div>
+</div>
+<div class="snap-columns">
+<div class="snap-column snap-rules">
+<div class="snap-box">
+<div class="snap-box-title" role="heading" aria-level="2">From the rules <span class="snap-pick-note">a new pick each visit</span></div>
+<choose uncached>
+<option>{{:SNAP:Featured/Rules/1}}</option>
+<option>{{:SNAP:Featured/Rules/2}}</option>
+</choose>
+</div>
+<div class="snap-box">
+<div class="snap-box-title" role="heading" aria-level="2">The rules</div>
+* [[How to play]]
+* [[Making a character]]
+* [[Rolling the dice]]
+* [[Powers and abilities]]
+* [[Running a game]]
+* [[Run it with Claude]] (optional)
+</div>
+</div>
+<div class="snap-column snap-settings">
+<div class="snap-box">
+<div class="snap-box-title" role="heading" aria-level="2">From Calador <span class="snap-pick-note">a new pick each visit</span></div>
+<choose uncached>
+<option>{{:SNAP:Featured/Calador/1}}</option>
+<option>{{:SNAP:Featured/Calador/2}}</option>
+</choose>
+</div>
+<div class="snap-box">
+<div class="snap-box-title" role="heading" aria-level="2">The settings</div>
+* [[Calador]]
+* [[Calador Prime]]
+* [[The Commonwealth]]
+* [[The Lighthouse]]
+* [[Future settings]]
+* [[Special:RecentChanges|Recent changes]]
+</div>
+</div>
+</div>
+<div class="snap-box">
+<div class="snap-box-title" role="heading" aria-level="2">Free, with optional extras</div>
+The rules and every setting are free here. Printed books, merch and an optional MCP service are extras.
+</div>
