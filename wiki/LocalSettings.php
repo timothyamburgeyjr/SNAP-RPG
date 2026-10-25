@@ -10,8 +10,16 @@ $wgSitename = 'SNAP';
 $wgMetaNamespace = 'SNAP';
 # Public address. wiki/.env overrides it with http://localhost:8180 until the tunnel is up (item 7).
 $wgServer = getenv( 'MW_SERVER' ) ?: 'https://snap.amburgey.dev';
+# Send every plain-http visit to https (Cloudflare tells us the protocol in X-Forwarded-Proto).
+$wgForceHTTPS = true;
 $wgLanguageCode = 'en';
 $wgLocaltimezone = 'America/New_York';
+
+## Behind the Cloudflare tunnel: requests arrive from Docker's gateway, and the visitor's
+## real address is in X-Forwarded-For (set by Cloudflare). Trust that header only from
+## this machine and Docker's own networks (the wiki port is bound to 127.0.0.1).
+$wgUsePrivateIPs = true;
+$wgCdnServersNoPurge = [ '127.0.0.1', '172.16.0.0/12' ];
 
 ## Short URLs: program files at /w, pages at /wiki/Page_name
 $wgScriptPath = '/w';
@@ -52,6 +60,16 @@ $wgMaxUploadSize = 100 * 1024 * 1024;
 ## Skin
 wfLoadSkin( 'Vector' );
 $wgDefaultSkin = 'vector-2022';
+# Phones get the real screen width instead of a shrunken 1120 px desktop page.
+$wgVectorResponsive = true;
+# Light / Dark / Automatic switch in the Appearance menu, for everyone (like Wikipedia).
+$wgVectorNightMode['logged_out'] = true;
+$wgVectorNightMode['logged_in'] = true;
+# Logged-in accounts see the same layout as visitors: Tools behind ⋮, Main menu behind ☰.
+$wgDefaultUserOptions['vector-page-tools-pinned'] = 0;
+$wgDefaultUserOptions['vector-main-menu-pinned'] = 0;
+# Default Appearance (Tim's choice): Wide width. Small text and Light colour are Vector's own defaults.
+$wgDefaultUserOptions['vector-limited-width'] = 0;
 
 ## Branding: the A icon, SNAP wordmark and tagline (Vector 2022 lays them out), favicon
 $wgLogos = [

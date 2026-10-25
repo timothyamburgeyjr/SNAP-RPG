@@ -12,6 +12,13 @@ Public address: https://snap.amburgey.dev/wiki/Main_Page. On this machine: http:
 | `mockups/` | The approved target look |
 | `.env` | Secrets. Never in git. Copy `.env.example` to make one. |
 
+## Public access (Cloudflare Tunnel)
+The wiki listens on 127.0.0.1:8180 only. The public address comes from Tim's existing Cloudflare tunnel:
+the route is the `snap.amburgey.dev` entry in `C:\Users\Timothy\.cloudflared\config.yml` (outside this repo;
+backup from before the change: `config.yml.bak-presnap`), and DNS is a proxied CNAME made with
+`cloudflared tunnel route dns`. cloudflared does not reload its config on its own: restarting the
+"Cloudflared Vault Tunnel" scheduled task applies changes, and briefly interrupts every site on that tunnel.
+
 ## Start and stop (in this folder)
     docker compose up -d --build
     docker compose down

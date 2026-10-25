@@ -5,11 +5,12 @@
  *
  * Dark mode: Vector's own night palettes are defined on html.skin-theme-clientpref-night and
  * html.skin-theme-clientpref-os, which are more specific than :root, so they still win and
- * dark mode keeps its own colors. This file therefore only changes light mode.
+ * dark mode keeps its own colors. Apart from the single background colour and the Main Page
+ * title bar below, this file only changes light mode.
  *
  * Palette
  *   cream        #f6f2ea   article surface            (contrast with body text #202122: 14.4:1)
- *   gutter       #ece6d8   page background / panels
+ *   gutter       #ece6d8   panels
  *   hover        #e3dccb   tabs, hover, framed buttons
  *   border       #a89f8c   standard borders
  *   border-soft  #cfc6b3   subtle borders
@@ -29,15 +30,49 @@
 	--border-color-muted: #cfc6b3;
 }
 
-/* make sure the page gutter follows the variable even where the skin hard-codes it */
+/* One background colour edge to edge, in light and dark mode: Vector paints the margin beyond
+ * the page column a different shade, which reads as a stray band (Tim, 2026-10-25). */
 html,
 body {
-	background-color: var(--background-color-neutral-subtle);
+	background-color: var(--background-color-base);
 }
 
-/* brand touches (colors only, no layout) */
-.mw-body h1,
-.mw-body-content h1,
-.mw-body-content h2 {
+/* Main Page: no title bar, just the page (as on Wikipedia). */
+.page-Main_Page.action-view .vector-page-titlebar {
+	display: none;
+}
+
+/* Page tools: a "⋮" button instead of "Tools ˅", as in newer Vector on Wikipedia.
+ * The text stays in the page (font-size 0) and the button keeps its own aria-label. */
+#vector-page-tools-dropdown .vector-dropdown-label-text {
+	font-size: 0;
+}
+#vector-page-tools-dropdown .vector-dropdown-label::after {
+	display: none;
+}
+#vector-page-tools-dropdown .vector-dropdown-label::before {
+	content: '';
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+	background-color: currentColor;
+	-webkit-mask: url( "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Ccircle cx='10' cy='3.5' r='2'/%3E%3Ccircle cx='10' cy='10' r='2'/%3E%3Ccircle cx='10' cy='16.5' r='2'/%3E%3C/svg%3E" ) center / 20px no-repeat;
+	mask: url( "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Ccircle cx='10' cy='3.5' r='2'/%3E%3Ccircle cx='10' cy='10' r='2'/%3E%3Ccircle cx='10' cy='16.5' r='2'/%3E%3C/svg%3E" ) center / 20px no-repeat;
+}
+
+/* Light mode only from here on: slate headings would vanish on a dark background.
+ * "os" = Automatic, which is light only when the device is in light mode. */
+html.skin-theme-clientpref-day .mw-body h1,
+html.skin-theme-clientpref-day .mw-body-content h1,
+html.skin-theme-clientpref-day .mw-body-content h2 {
 	color: #39434c;
+}
+
+@media (prefers-color-scheme: light) {
+	html.skin-theme-clientpref-os .mw-body h1,
+	html.skin-theme-clientpref-os .mw-body-content h1,
+	html.skin-theme-clientpref-os .mw-body-content h2 {
+		color: #39434c;
+	}
 }
