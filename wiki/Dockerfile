@@ -28,3 +28,20 @@ RUN set -eux; \
     echo "a404374a72c8c3a8a93504cd2405cc0a27472b799a8bc27eec919c3867ec94e5  /tmp/OAuth.tar.gz" | sha256sum -c -; \
     tar -xzf /tmp/OAuth.tar.gz -C /var/www/html/w/extensions; \
     rm /tmp/OAuth.tar.gz
+
+# TemplateStyles (item 13): Wikipedia's templates keep their CSS in template-style pages.
+# Official 1.43 bundle, checked against the checksum recorded when it was chosen.
+RUN set -eux; \
+    curl -fsSL -o /tmp/TemplateStyles.tar.gz "https://extdist.wmflabs.org/dist/extensions/TemplateStyles-REL1_43-e74200b.tar.gz"; \
+    echo "8df19ca49dd7abfcd9e1dfe7bc1daf82c129337b04bfd95b2825bb0d6887d6f7  /tmp/TemplateStyles.tar.gz" | sha256sum -c -; \
+    tar -xzf /tmp/TemplateStyles.tar.gz -C /var/www/html/w/extensions; \
+    rm /tmp/TemplateStyles.tar.gz
+
+# ShortDescription 4.0.2 (item 13): the {{SHORTDESC:}} magic word Wikipedia's {{Short description}}
+# uses, shown under the page title. No release tags upstream, so pinned to a commit + checksum.
+RUN set -eux; \
+    curl -fsSL -o /tmp/ShortDescription.tar.gz "https://codeload.github.com/StarCitizenTools/mediawiki-extensions-ShortDescription/tar.gz/8d348a84a2e337b777525daeea2ff01707785171"; \
+    echo "4370ea694c802413bf58b174398aef09bba63fe9907732fc96716116e551bb6d  /tmp/ShortDescription.tar.gz" | sha256sum -c -; \
+    mkdir /var/www/html/w/extensions/ShortDescription; \
+    tar -xzf /tmp/ShortDescription.tar.gz -C /var/www/html/w/extensions/ShortDescription --strip-components=1; \
+    rm /tmp/ShortDescription.tar.gz

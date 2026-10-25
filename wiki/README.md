@@ -19,6 +19,16 @@ backup from before the change: `config.yml.bak-presnap`), and DNS is a proxied C
 `cloudflared tunnel route dns`. cloudflared does not reload its config on its own: restarting the
 "Cloudflared Vault Tunnel" scheduled task applies changes, and briefly interrupts every site on that tunnel.
 
+## Templates copied from Wikipedia
+Infoboxes, sidebars, navboxes, hatnotes, short descriptions, citations and timelines are Wikipedia's own
+templates and Lua modules, copied with `tools/import-wikipedia.py "Template:Name" ...`, which brings each
+template's dependencies and documentation along.
+- Wikipedia text is **CC BY-SA 4.0**. Credit is kept two ways: each imported revision shows its Wikipedia
+  author as `wikipedia>Name` with the original edit summary, and `wikipedia-imports.tsv` lists every page
+  with the Wikipedia revision it came from. Those pages stay CC BY-SA; SNAP's own articles are separate.
+- Pages already in the TSV are never re-imported, so local changes are safe.
+- Wikidata lookups in some templates don't work here (there is no Wikidata); fields simply stay empty.
+
 ## Claude connector (MCP)
 The `mcp` service is the MediaWiki MCP Server (pinned in `compose.yaml`), settings in `mcp/config.json`.
 claude.ai custom connector URL: `https://snap-mcp.amburgey.dev/mcp` (second route in the same tunnel, to 127.0.0.1:8181).

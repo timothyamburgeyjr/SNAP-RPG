@@ -1,0 +1,719 @@
+title	wikipedia_revid	wikipedia_timestamp
+Module:About	967653971	2020-07-14T13:59:23Z
+Module:Age	1326691514	2025-12-10T08:08:14Z
+Module:Aligned table	1000159883	2021-01-13T21:53:43Z
+Module:Anchor	980153746	2020-09-24T22:32:51Z
+Module:Arguments	948472485	2020-04-01T06:12:40Z
+Module:Auto date formatter	1318475774	2025-10-24T02:39:45Z
+Module:Catalog lookup link	1310804584	2025-09-11T18:09:00Z
+Module:Category handler	948472489	2020-04-01T06:12:40Z
+Module:Category handler/blacklist	951673917	2020-04-18T08:48:05Z
+Module:Category handler/config	948472494	2020-04-01T06:12:40Z
+Module:Category handler/data	948472496	2020-04-01T06:12:41Z
+Module:Category handler/shared	948472498	2020-04-01T06:12:41Z
+Module:Check for conflicting parameters	1329820934	2025-12-28T03:34:01Z
+Module:Check for unknown parameters	1379490836	2026-10-10T08:31:06Z
+Module:Citation/CS1	1368341266	2026-08-08T13:56:56Z
+Module:Citation/CS1/COinS	1368341229	2026-08-08T13:56:43Z
+Module:Citation/CS1/Configuration	1368902650	2026-08-11T19:05:25Z
+Module:Citation/CS1/Date validation	1368341248	2026-08-08T13:56:49Z
+Module:Citation/CS1/Identifiers	1368341239	2026-08-08T13:56:47Z
+Module:Citation/CS1/Utilities	1368341236	2026-08-08T13:56:45Z
+Module:Citation/CS1/Whitelist	1368341255	2026-08-08T13:56:52Z
+Module:Citation/CS1/styles.css	1333433106	2026-01-17T19:25:08Z
+Module:Collapsible list	1355106664	2026-05-20T00:05:09Z
+Module:Color contrast	1366365163	2026-07-27T16:10:39Z
+Module:Color contrast/colors	879950256	2019-01-24T12:30:11Z
+Module:Comma-separated list	1367480010	2026-08-03T09:25:53Z
+Module:Cs1 documentation support	1340259163	2026-02-24T19:24:53Z
+Module:Cslist	1367480011	2026-08-03T09:25:53Z
+Module:Date	1338943873	2026-02-18T03:21:21Z
+Module:Date time	1284911849	2025-04-10T14:19:53Z
+Module:Delink	1208348327	2024-02-17T04:47:33Z
+Module:Demo	1240199831	2024-08-14T02:31:11Z
+Module:Detect singular	1317083018	2025-10-16T06:01:56Z
+Module:Distinguish	833561758	2018-04-01T10:06:10Z
+Module:Documentation	1360050290	2026-06-18T22:38:35Z
+Module:Documentation/config	1316644867	2025-10-13T18:10:40Z
+Module:Documentation/styles.css	1360085358	2026-06-19T03:19:17Z
+Module:Effective protection expiry	1073570341	2022-02-23T10:59:29Z
+Module:Effective protection level	1313238235	2025-09-25T02:35:06Z
+Module:Error	1310775052	2025-09-11T15:10:08Z
+Module:File link	948474149	2020-04-01T06:31:54Z
+Module:Footnotes	1362291160	2026-07-03T00:30:32Z
+Module:Footnotes/anchor id list	1269310281	2025-01-14T02:04:50Z
+Module:Footnotes/anchor id list/data	1360336145	2026-06-20T21:20:11Z
+Module:Footnotes/whitelist	1379787160	2026-10-11T23:15:30Z
+Module:For	986771546	2020-11-02T22:29:56Z
+Module:For each named parameter	1362395019	2026-07-03T18:00:02Z
+Module:For loop	1283777771	2025-04-03T16:31:32Z
+Module:For nowiki	1366733148	2026-07-29T21:35:37Z
+Module:Format TemplateData	1365572909	2026-07-23T06:01:42Z
+Module:Format TemplateData/config	1366829874	2026-07-30T13:47:38Z
+Module:Format link	1374048304	2026-09-09T14:12:29Z
+Module:Graphical timeline	1363099047	2026-07-08T01:26:35Z
+Module:Harvc	1271978418	2025-01-26T16:13:50Z
+Module:Hatnote	1281142802	2025-03-18T15:47:33Z
+Module:Hatnote inline	1191150900	2023-12-21T20:46:48Z
+Module:Hatnote list	1184984294	2023-11-13T21:00:31Z
+Module:Hatnote/styles.css	1368532237	2026-08-09T16:48:05Z
+Module:High-use	1380842890	2026-10-18T08:06:09Z
+Module:Horizontal timeline	1314818809	2025-10-03T10:47:11Z
+Module:Icon	1335622010	2026-01-30T06:27:05Z
+Module:Icon/data	1363822245	2026-07-12T17:40:40Z
+Module:If empty	1135762364	2023-01-26T18:33:28Z
+Module:In5	880025798	2019-01-24T21:24:24Z
+Module:Infobox	1358325140	2026-06-08T00:50:22Z
+Module:Infobox mapframe	1378091936	2026-10-02T22:57:03Z
+Module:Infobox/styles.css	1358620234	2026-06-09T21:49:34Z
+Module:InfoboxImage	1317484358	2025-10-18T09:45:47Z
+Module:Item	880025792	2019-01-24T21:24:24Z
+Module:Key	1071502366	2022-02-13T00:06:54Z
+Module:Labelled list hatnote	1292769084	2025-05-28T18:18:35Z
+Module:Lang	1381639042	2026-10-23T20:48:59Z
+Module:Lang/ISO 639 synonyms	815286590	2017-12-13T23:10:47Z
+Module:Lang/configuration	1363080099	2026-07-07T22:37:46Z
+Module:Lang/data	1374844109	2026-09-14T11:31:26Z
+Module:Lang/data/iana languages	1379599151	2026-10-10T22:29:00Z
+Module:Lang/data/iana regions	1379599183	2026-10-10T22:29:09Z
+Module:Lang/data/iana scripts	1379599159	2026-10-10T22:29:04Z
+Module:Lang/data/iana suppressed scripts	1379599210	2026-10-10T22:29:17Z
+Module:Lang/data/iana variants	1379599193	2026-10-10T22:29:13Z
+Module:Lang/data/is latn data	1359035343	2026-06-12T17:04:35Z
+Module:List	1374427723	2026-09-12T00:43:13Z
+Module:Lorem ipsum	1350573064	2026-04-22T18:15:33Z
+Module:Lorem ipsum/data	1378720754	2026-10-05T21:35:58Z
+Module:Lua banner	1217314050	2024-04-05T02:45:24Z
+Module:Lua call	1376690154	2026-09-25T18:00:09Z
+Module:Mapframe	1380938015	2026-10-18T22:35:06Z
+Module:Message box	1317729838	2025-10-19T18:19:52Z
+Module:Message box/configuration	1317729836	2025-10-19T18:19:49Z
+Module:Message box/ombox.css	1374733320	2026-09-13T20:36:59Z
+Module:MultiReplace	1122097663	2022-11-15T20:58:00Z
+Module:Multilingual	1103240950	2022-08-09T00:07:40Z
+Module:Namespace detect/config	948472518	2020-04-01T06:12:44Z
+Module:Namespace detect/data	948472520	2020-04-01T06:12:45Z
+Module:Navbar	1179557823	2023-10-10T22:34:57Z
+Module:Navbar/configuration	1358894823	2026-06-11T17:30:52Z
+Module:Navbar/styles.css	1239400231	2024-08-09T02:07:46Z
+Module:Navbox	1340240090	2026-02-24T17:16:57Z
+Module:Navbox top and bottom	1214469648	2024-03-19T04:03:41Z
+Module:Navbox/configuration	1340098247	2026-02-23T23:40:03Z
+Module:Navbox/styles.css	1377086236	2026-09-27T20:46:50Z
+Module:Ns has subpages	1208340234	2024-02-17T04:01:43Z
+Module:Pagetype	1224985282	2024-05-21T17:35:20Z
+Module:Pagetype/config	1350943544	2026-04-25T00:17:56Z
+Module:Pagetype/rfd	1241379693	2024-08-20T20:41:41Z
+Module:Pagetype/softredirect	1239365716	2024-08-08T21:25:34Z
+Module:Parameter names example	1287053738	2025-04-23T18:00:35Z
+Module:ParameterCount	764889135	2017-02-11T14:32:57Z
+Module:Plain text	1264881083	2024-12-24T01:02:36Z
+Module:Protect	887566004	2019-03-13T12:54:02Z
+Module:Protected page	1372160042	2026-08-30T17:24:01Z
+Module:Protected page/config	1372159741	2026-08-30T17:22:32Z
+Module:Protection banner	1372159444	2026-08-30T17:20:50Z
+Module:Purge	810146905	2017-11-13T16:20:48Z
+Module:R	1381034916	2026-10-19T16:09:42Z
+Module:Redirect	1043472510	2021-09-10T07:46:37Z
+Module:Redirect hatnote	1108677549	2022-09-05T18:21:32Z
+Module:Redirect-distinguish	1366753314	2026-07-30T00:38:06Z
+Module:Redirect-distinguish-for	1363561095	2026-07-11T00:16:05Z
+Module:SST/registry	1363756700	2026-07-12T06:01:34Z
+Module:Section link	1378447456	2026-10-04T15:07:46Z
+Module:Separated entries	1316629591	2025-10-13T16:33:18Z
+Module:Shortcut	1375860876	2026-09-20T14:55:19Z
+Module:Shortcut/config	1007152995	2021-02-16T18:43:45Z
+Module:Shortcut/styles.css	1314910889	2025-10-03T21:27:48Z
+Module:Side box	1343853740	2026-03-16T20:05:56Z
+Module:Side box/styles.css	1378947174	2026-10-07T01:47:25Z
+Module:Sidebar	1330140016	2025-12-29T18:10:22Z
+Module:Sidebar/configuration	1358836509	2026-06-11T07:56:35Z
+Module:Sidebar/styles.css	1378777972	2026-10-06T03:04:00Z
+Module:Sister project logo	1353617353	2026-05-11T10:07:57Z
+Module:Sister project logo/data	1353617391	2026-05-11T10:08:21Z
+Module:String	1305419441	2025-08-11T23:48:56Z
+Module:String2	1360217299	2026-06-20T00:20:13Z
+Module:Suppress categories	1305595950	2025-08-13T00:59:36Z
+Module:TNT	975758048	2020-08-30T07:28:25Z
+Module:TableTools	1240903756	2024-08-18T04:19:07Z
+Module:Template invocation	1244228307	2024-09-05T20:21:20Z
+Module:Template link general	1337957979	2026-02-12T11:19:37Z
+Module:Template test case	1372646796	2026-09-01T16:38:24Z
+Module:Template test case/config	1180594241	2023-10-17T16:42:52Z
+Module:Template test case/data	880025587	2019-01-24T21:23:12Z
+Module:Template wrapper	1117461841	2022-10-21T21:11:46Z
+Module:Text	1287462003	2025-04-26T12:19:49Z
+Module:Transclusion count	1305411379	2025-08-11T22:36:46Z
+Module:Transclusion count/data/A	1380828842	2026-10-18T05:08:36Z
+Module:Transclusion count/data/B	1380828855	2026-10-18T05:08:46Z
+Module:Transclusion count/data/C	1380828866	2026-10-18T05:08:56Z
+Module:Transclusion count/data/D	1380828874	2026-10-18T05:09:06Z
+Module:Transclusion count/data/E	1380828888	2026-10-18T05:09:16Z
+Module:Transclusion count/data/F	1380828899	2026-10-18T05:09:26Z
+Module:Transclusion count/data/H	1380828923	2026-10-18T05:09:46Z
+Module:Transclusion count/data/I	1380828933	2026-10-18T05:09:56Z
+Module:Transclusion count/data/M	1380828998	2026-10-18T05:10:36Z
+Module:Transclusion count/data/N	1380829005	2026-10-18T05:10:46Z
+Module:Transclusion count/data/P	1380829028	2026-10-18T05:11:06Z
+Module:Transclusion count/data/R	1380829061	2026-10-18T05:11:26Z
+Module:Transclusion count/data/S	1380829074	2026-10-18T05:11:36Z
+Module:Transclusion count/data/U	1380829099	2026-10-18T05:11:56Z
+Module:Trim quotes	898046778	2019-05-21T01:19:23Z
+Module:Unicode data	1375250716	2026-09-16T18:07:22Z
+Module:Unsubst	1048913973	2021-10-08T18:22:16Z
+Module:Uses TemplateStyles	1377281665	2026-09-28T18:00:00Z
+Module:Uses TemplateStyles/config	1377281666	2026-09-28T18:00:00Z
+Module:Uses Wikidata	1092179188	2022-06-08T17:12:17Z
+Module:WLink	986222884	2020-10-30T15:03:05Z
+Module:Wd	1301986908	2025-07-22T19:53:47Z
+Module:Wd/i18n	1301986825	2025-07-22T19:53:10Z
+Module:WikidataIB	1329681003	2025-12-27T11:46:46Z
+Module:WikidataIB/nolinks	881124610	2019-01-31T16:27:33Z
+Module:WikidataIB/titleformats	954085206	2020-04-30T16:11:19Z
+Module:Wikitext Parsing	1366732962	2026-07-29T21:33:46Z
+Module:Yesno	948473803	2020-04-01T06:27:55Z
+Template:!!	632419369	2014-11-04T14:12:38Z
+Template:!-	582040159	2013-11-17T11:54:04Z
+Template:!xt	1346808016	2026-04-03T01:44:30Z
+Template:'	1112666443	2022-09-27T12:43:06Z
+Template:((	690395453	2015-11-13T02:17:23Z
+Template:))	1073507599	2022-02-23T02:26:26Z
+Template:-	769942854	2017-03-12T14:41:31Z
+Template:--	745489358	2016-10-21T12:17:19Z
+Template:A note	1335903201	2026-01-31T21:30:57Z
+Template:AWB standard installation	1353670932	2026-05-11T17:42:47Z
+Template:About	1044582448	2021-09-16T00:56:50Z
+Template:About/doc	1366392352	2026-07-27T19:30:55Z
+Template:Age	1005149990	2021-02-06T06:09:01Z
+Template:Aka	1225153931	2024-05-22T18:00:37Z
+Template:Align	1191160544	2023-12-21T21:57:41Z
+Template:Aligned table	972001240	2020-08-09T16:18:21Z
+Template:Also known as	1366751978	2026-07-30T00:26:39Z
+Template:Always substitute	1369176259	2026-08-13T09:25:48Z
+Template:Anchor	1004055979	2021-01-31T22:06:17Z
+Template:Apostrophe	1112666442	2022-09-27T12:43:06Z
+Template:As of	1283600415	2025-04-02T14:19:52Z
+Template:AutoWikiBrowser standard installation	1353670931	2026-05-11T17:42:47Z
+Template:Birth date and age	1281305220	2025-03-19T15:27:02Z
+Template:Birth date and age text	1309232014	2025-09-02T21:58:24Z
+Template:Birth date and age/doc	1378126968	2026-10-03T02:32:57Z
+Template:Birth date text	1280261466	2025-03-13T14:59:38Z
+Template:Birth, death and age templates	1376237112	2026-09-22T23:43:05Z
+Template:Block bug documentation	1289314332	2025-05-07T20:52:35Z
+Template:Block indent	996645830	2020-12-27T21:23:56Z
+Template:Block indent/styles.css	996643573	2020-12-27T21:05:41Z
+Template:Block indentation templates	1359007536	2026-06-12T13:01:50Z
+Template:Block indentation templates/Recommended for articles	1359007538	2026-06-12T13:01:51Z
+Template:Blockquote	1317335651	2025-10-17T16:04:44Z
+Template:Blockquote/SimpleMOS	1359251107	2026-06-14T03:25:58Z
+Template:Blockquote/SimpleMOS/Recommended for articles	1359251117	2026-06-14T03:26:08Z
+Template:Blockquote/doc	1374267409	2026-09-10T22:59:03Z
+Template:Blockquote/doc/boilerplate	1370727208	2026-08-22T19:46:45Z
+Template:Blockquote/styles.css	1244412712	2024-09-06T23:38:58Z
+Template:Bot use warning	1325005499	2025-11-30T18:30:28Z
+Template:Both	1229212275	2024-06-15T14:15:23Z
+Template:Braces	1318689044	2025-10-25T11:33:46Z
+Template:Bulleted list	696877703	2015-12-26T16:25:12Z
+Template:Button	1242759093	2024-08-28T15:24:49Z
+Template:C	1226904921	2024-06-02T14:03:48Z
+Template:CNone	1233938171	2024-07-11T18:27:04Z
+Template:COinS safe	1320947200	2025-11-07T18:25:24Z
+Template:CSS3 multiple column layout	1367476920	2026-08-03T08:52:50Z
+Template:Cascade-protected template	1333058420	2026-01-15T13:09:33Z
+Template:Cat	1234481346	2024-07-14T16:03:39Z
+Template:Catalog lookup link	1140708228	2023-02-21T10:29:15Z
+Template:Category handler	874046584	2018-12-16T20:13:00Z
+Template:Category link	1345866195	2026-03-28T17:08:14Z
+Template:Category link with count	1028077630	2021-06-11T18:13:44Z
+Template:Category link without namespace	1226904918	2024-06-02T14:03:48Z
+Template:Category link/core	1236062569	2024-07-22T17:59:58Z
+Template:Citation	895815361	2019-05-06T17:38:52Z
+Template:Citation Style 1	1346421810	2026-03-31T19:09:37Z
+Template:Citation Style 1 link	1365623788	2026-07-23T14:08:42Z
+Template:Citation Style 2 link	1365623722	2026-07-23T14:08:19Z
+Template:Citation Style documentation	1279729499	2025-03-10T06:05:13Z
+Template:Citation Style documentation/agency	1314273595	2025-09-30T15:31:07Z
+Template:Citation Style documentation/author	1364074828	2026-07-14T09:26:54Z
+Template:Citation Style documentation/auto-date-format	983142587	2020-10-12T14:02:35Z
+Template:Citation Style documentation/chapter	1273284513	2025-02-01T16:35:15Z
+Template:Citation Style documentation/chapterurl	1017058537	2021-04-10T15:22:38Z
+Template:Citation Style documentation/coins	1337512359	2026-02-09T22:51:30Z
+Template:Citation Style documentation/cs1	1285008089	2025-04-11T02:55:42Z
+Template:Citation Style documentation/date	1366286558	2026-07-27T04:42:18Z
+Template:Citation Style documentation/deprecated	1144461974	2023-03-13T22:12:54Z
+Template:Citation Style documentation/display	1182840494	2023-10-31T18:02:08Z
+Template:Citation Style documentation/edition	675608488	2015-08-11T16:35:13Z
+Template:Citation Style documentation/editor	1200646847	2024-01-29T23:51:51Z
+Template:Citation Style documentation/id1	1358828537	2026-06-11T05:49:22Z
+Template:Citation Style documentation/id2	1368343450	2026-08-08T14:16:09Z
+Template:Citation Style documentation/journal	1366294252	2026-07-27T05:38:29Z
+Template:Citation Style documentation/language	1320180226	2025-11-03T05:01:37Z
+Template:Citation Style documentation/lead	1023439929	2021-05-16T12:07:59Z
+Template:Citation Style documentation/lua	1285008265	2025-04-11T02:57:08Z
+Template:Citation Style documentation/pages	1366292896	2026-07-27T05:28:08Z
+Template:Citation Style documentation/publisher	1357377256	2026-06-02T07:53:46Z
+Template:Citation Style documentation/quote	1309886833	2025-09-06T14:19:05Z
+Template:Citation Style documentation/ref	1339646837	2026-02-21T16:39:29Z
+Template:Citation Style documentation/registration	1371615532	2026-08-27T12:03:18Z
+Template:Citation Style documentation/required	1004188902	2021-02-01T13:17:48Z
+Template:Citation Style documentation/sep period	675608353	2015-08-11T16:34:32Z
+Template:Citation Style documentation/series	1196434012	2024-01-17T13:16:17Z
+Template:Citation Style documentation/syntax	1018016738	2021-04-15T21:07:45Z
+Template:Citation Style documentation/time	1016496432	2021-04-07T13:57:19Z
+Template:Citation Style documentation/title	1319092659	2025-10-27T19:33:56Z
+Template:Citation Style documentation/type	989428979	2020-11-18T22:55:02Z
+Template:Citation Style documentation/url	1366294910	2026-07-27T05:43:27Z
+Template:Citation Style documentation/usage	1256705285	2024-11-11T05:25:57Z
+Template:Citation Style documentation/usage common	1334345756	2026-01-23T00:14:08Z
+Template:Citation Style documentation/usage full	1206306338	2024-02-11T20:05:05Z
+Template:Citation Style documentation/usage vertical common	1334346132	2026-01-23T00:17:43Z
+Template:Citation Style documentation/volume	1054261335	2021-11-09T00:55:20Z
+Template:Citation Style documentation/web	1314509972	2025-10-01T20:14:52Z
+Template:Citation Style documentation/whats new	1364342107	2026-07-16T00:52:08Z
+Template:Citation/styles.css	1041539562	2021-08-31T03:12:09Z
+Template:Cite *	1061290091	2021-12-20T21:00:33Z
+Template:Cite book	810449908	2017-11-15T09:11:45Z
+Template:Cite book/TemplateData	1300578674	2025-07-15T04:58:16Z
+Template:Cite book/doc	1372976434	2026-09-03T08:03:06Z
+Template:Cite comic	1354485967	2026-05-16T18:49:05Z
+Template:Cite journal	690395473	2015-11-13T02:17:24Z
+Template:Cite journal/doc	1379199692	2026-10-08T14:30:20Z
+Template:Cite magazine	886312468	2019-03-05T14:21:58Z
+Template:Cite news	828626614	2018-03-03T19:19:37Z
+Template:Cite news/doc	1367743219	2026-08-04T23:05:01Z
+Template:Cite report	827245175	2018-02-23T16:29:42Z
+Template:Cite web	753103437	2016-12-05T05:36:52Z
+Template:Cite web/doc	1381078859	2026-10-19T21:55:40Z
+Template:Cite.php	785924544	2017-06-16T06:28:24Z
+Template:Cl	893875615	2019-04-24T04:30:48Z
+Template:Clc	893875624	2019-04-24T04:30:59Z
+Template:Clear	1206935019	2024-02-13T14:32:36Z
+Template:Clear/doc	1363832281	2026-07-12T19:11:08Z
+Template:Cob	1114645543	2022-10-07T15:01:20Z
+Template:Code	1273749409	2025-02-03T21:00:59Z
+Template:Codett	1316583455	2025-10-13T09:00:35Z
+Template:Collapse	1310290723	2025-09-08T19:26:59Z
+Template:Collapse Templates	888408651	2019-03-18T23:20:10Z
+Template:Collapse bottom	1105766402	2022-08-21T18:03:39Z
+Template:Collapse top	1346538859	2026-04-01T12:40:03Z
+Template:Collapse top/styles.css	1256386598	2024-11-09T18:23:41Z
+Template:Collapsed bottom	915180014	2019-09-11T17:59:46Z
+Template:Collapsed top	992705836	2020-12-06T18:02:06Z
+Template:Collapsible list	579833069	2013-11-02T05:07:45Z
+Template:Collapsible list/doc	1347631722	2026-04-07T20:46:13Z
+Template:Collapsible templates	1294082311	2025-06-05T13:30:15Z
+Template:Colon	579833044	2013-11-02T05:07:28Z
+Template:Color	1362791982	2026-07-06T06:00:56Z
+Template:Color/styles.css	1239334494	2024-08-08T18:04:34Z
+Template:Columns list	1374906053	2026-09-14T19:36:08Z
+Template:Comma separated entries	1377836549	2026-10-01T12:10:14Z
+Template:Comma-separated entries	1380735425	2026-10-17T14:47:24Z
+Template:Comma-separated list	1380735423	2026-10-17T14:47:24Z
+Template:Comma-separated list/styles.css	1367478826	2026-08-03T09:13:56Z
+Template:Cot	1002253880	2021-01-23T15:32:43Z
+Template:Cross	1362309779	2026-07-03T03:08:44Z
+Template:Crossref	804500384	2017-10-09T12:24:30Z
+Template:Crossreference	1190790325	2023-12-19T21:40:27Z
+Template:Crossreference/styles.css	1033199720	2021-07-12T06:50:43Z
+Template:Cs1	1365623618	2026-07-23T14:07:35Z
+Template:Cs2	1365623672	2026-07-23T14:07:56Z
+Template:Csdoc	623878625	2014-09-02T16:23:24Z
+Template:Date	1063311891	2022-01-02T09:35:32Z
+Template:Date-mf	1028726910	2021-06-15T17:09:49Z
+Template:Dated maintenance category	589732290	2014-01-08T08:14:55Z
+Template:Dated maintenance category (articles)	1137159158	2023-02-03T03:07:34Z
+Template:Dc2	1224960532	2024-05-21T14:49:11Z
+Template:Dcr	1224960753	2024-05-21T14:50:48Z
+Template:Death date and age	1321497205	2025-11-10T22:19:13Z
+Template:Death date and age/doc	1378142991	2026-10-03T03:54:59Z
+Template:Defn	1276463626	2025-02-19T00:15:14Z
+Template:Demo	1216527393	2024-03-31T14:46:33Z
+Template:Deprecated code	1315560833	2025-10-07T10:15:41Z
+Template:Deprecated code 2	1315560635	2025-10-07T10:14:08Z
+Template:Deprecated code red	1279579547	2025-03-09T10:16:35Z
+Template:Dfn	1352635153	2026-05-05T10:56:39Z
+Template:Dfni	1370715226	2026-08-22T18:01:03Z
+Template:Diff	714526695	2016-04-10T08:58:51Z
+Template:Distinguish	1137476713	2023-02-04T21:16:13Z
+Template:Div col	1006814038	2021-02-14T23:20:57Z
+Template:Div col end	1309566800	2025-09-04T20:52:40Z
+Template:Div col/styles.css	1184024115	2023-11-07T21:54:12Z
+Template:Doc-code	1349823632	2026-04-19T02:29:36Z
+Template:Documentation	1079870366	2022-03-29T02:14:34Z
+Template:Documentation subpage	1366211852	2026-07-26T21:53:49Z
+Template:Documentation/doc	1380136866	2026-10-14T00:47:15Z
+Template:Dummy ref	1173630462	2023-09-03T16:33:15Z
+Template:Dummy reference	1379198746	2026-10-08T14:20:38Z
+Template:Editnotice EXPECTUNUSEDTEMPLATE	1331785629	2026-01-08T04:44:45Z
+Template:Efn	1197504050	2024-01-20T20:12:38Z
+Template:Efn-lg	1139827358	2023-02-17T03:04:35Z
+Template:Efn-lr	1327355149	2025-12-14T00:16:01Z
+Template:Efn/doc	1362287907	2026-07-03T00:02:39Z
+Template:Elc	1244370393	2024-09-06T17:39:06Z
+Template:Em	972058812	2020-08-09T23:17:35Z
+Template:Em dash	792252222	2017-07-25T12:32:42Z
+Template:Encodefirst	1048188163	2021-10-04T18:26:06Z
+Template:End	1213572933	2024-03-13T21:16:07Z
+Template:End plain list	1378689461	2026-10-05T18:12:41Z
+Template:Endplainlist	1378688419	2026-10-05T18:06:49Z
+Template:Error	579195467	2013-10-29T00:20:58Z
+Template:Error-small	1310774512	2025-09-11T15:06:30Z
+Template:Example link code	1309003259	2025-09-01T16:31:15Z
+Template:Example text	1346807354	2026-04-03T01:40:33Z
+Template:Example text bad	1346808014	2026-04-03T01:44:30Z
+Template:Example text deprecated	1346807700	2026-04-03T01:42:40Z
+Template:Example text monospaced deprecated	1346807641	2026-04-03T01:42:16Z
+Template:FULLBASEPAGENAME	877259736	2019-01-07T15:38:13Z
+Template:FULLROOTPAGENAME	1063308743	2022-01-02T08:54:02Z
+Template:Fake header	813809483	2017-12-05T10:07:18Z
+Template:Fake heading	1236055078	2024-07-22T17:05:55Z
+Template:Fake heading/styles.css	1236298596	2024-07-23T23:19:58Z
+Template:Fake link/styles.css	1376271751	2026-09-23T03:42:25Z
+Template:Fake notes and references	1238973710	2024-08-06T17:20:39Z
+Template:Fix comma category	1126339915	2022-12-08T20:50:50Z
+Template:Flat list	1378885788	2026-10-06T18:43:30Z
+Template:Flatlist	1374430271	2026-09-12T01:01:19Z
+Template:Flowing list	1368208106	2026-08-07T18:00:06Z
+Template:Flowing list/styles.css	1379733872	2026-10-11T17:01:45Z
+Template:Fnote	1251113302	2024-10-14T13:43:46Z
+Template:For	1362897750	2026-07-06T22:03:12Z
+Template:For loop	851685775	2018-07-23T22:55:18Z
+Template:For/doc	1379622131	2026-10-11T01:00:57Z
+Template:Format TemplateData	1048396228	2021-10-05T19:23:32Z
+Template:Format item	872453719	2018-12-07T07:48:58Z
+Template:Further	1337132284	2026-02-07T17:55:08Z
+Template:Further information	1334811749	2026-01-25T20:00:38Z
+Template:Further/doc	1379256445	2026-10-08T22:22:40Z
+Template:Generic template demo	1267523182	2025-01-05T14:06:22Z
+Template:Glossary	1228772837	2024-06-13T03:21:28Z
+Template:Glossary end	1023075831	2021-05-14T06:45:23Z
+Template:Glossary/styles.css	1228772891	2024-06-13T03:21:51Z
+Template:Graphical timeline	1021033660	2021-05-02T14:51:02Z
+Template:Graphical timeline/blank	1379316969	2026-10-09T05:21:14Z
+Template:Graphical timeline/doc	1376550350	2026-09-24T21:35:02Z
+Template:Greater color contrast ratio	827245316	2018-02-23T16:29:56Z
+Template:HTML lists	1375165299	2026-09-16T04:38:49Z
+Template:Hair space	1039143162	2021-08-16T23:32:36Z
+Template:Hairspace	1182495442	2023-10-29T18:00:42Z
+Template:Harv	1202117386	2024-02-02T02:30:53Z
+Template:Harvard citation	972066551	2020-08-10T00:19:45Z
+Template:Harvard citation no brackets	972066849	2020-08-10T00:21:39Z
+Template:Harvard citation text	1223750108	2024-05-14T02:50:50Z
+Template:Harvard citation with colon	1192712799	2023-12-30T22:48:42Z
+Template:Harvard citation with colon no brackets	1192713545	2023-12-30T22:53:02Z
+Template:Harvard citation with colon text	1223751771	2024-05-14T03:10:44Z
+Template:Harvard citation year brackets	1349616102	2026-04-18T03:54:54Z
+Template:Harvard citations	1223751460	2024-05-14T03:06:38Z
+Template:Harvard citations/core	1004885299	2021-02-04T22:12:59Z
+Template:Harvc	1065864202	2022-01-15T17:59:55Z
+Template:Harvcol	1192712800	2023-12-30T22:48:42Z
+Template:Harvcolnb	1192713546	2023-12-30T22:53:03Z
+Template:Harvcoltxt	1192766108	2023-12-31T05:46:45Z
+Template:Harvnb	774336434	2017-04-07T19:22:02Z
+Template:Harvp	1305596831	2025-08-13T01:07:14Z
+Template:Harvs	488788285	2012-04-23T10:12:39Z
+Template:Harvtxt	774349335	2017-04-07T20:51:30Z
+Template:Hatnote	609825987	2014-05-23T15:55:04Z
+Template:Hatnote inline	1191151039	2023-12-21T20:47:46Z
+Template:Hatnote templates	1363818311	2026-07-12T17:07:28Z
+Template:Hatnote/doc	1378649645	2026-10-05T13:01:59Z
+Template:Helpbox	1321897937	2025-11-13T07:16:53Z
+Template:Helpbox/styles.css	1293100442	2025-05-30T17:56:16Z
+Template:Hidden	1380847427	2026-10-18T09:09:58Z
+Template:Hidden begin	1380844469	2026-10-18T08:28:09Z
+Template:Hidden begin/styles.css	1214851843	2024-03-21T15:54:44Z
+Template:Hidden end	1127034823	2022-12-12T14:54:45Z
+Template:High risk	1001472880	2021-01-19T20:55:25Z
+Template:High-risk	1149009627	2023-04-09T16:46:44Z
+Template:High-use	1157688598	2023-05-30T09:39:48Z
+Template:Hlist	1374540362	2026-09-12T17:59:44Z
+Template:Hlist/styles.css	1374427404	2026-09-12T00:40:45Z
+Template:Horizontal list	1374426841	2026-09-12T00:36:18Z
+Template:Horizontal list/doc	1374590057	2026-09-13T00:01:24Z
+Template:Horizontal timeline	982402736	2020-10-07T22:29:54Z
+Template:Horizontal timeline/doc	1372560095	2026-09-01T06:48:35Z
+Template:Icon	1212778641	2024-03-09T15:06:32Z
+Template:If empty	1080850732	2022-04-03T20:56:41Z
+Template:Ifsubst	1063308270	2022-01-02T08:48:20Z
+Template:In5	1268019526	2025-01-07T20:28:09Z
+Template:Indent 5	1268019524	2025-01-07T20:28:09Z
+Template:Infobox	855069164	2018-08-15T18:33:36Z
+Template:Infobox settlement	1381181791	2026-10-20T14:24:03Z
+Template:Infobox settlement/styles.css	1314753793	2025-10-03T02:11:47Z
+Template:Infobox/doc	1371211433	2026-08-25T05:49:55Z
+Template:Italics correction	1163260369	2023-07-03T21:20:48Z
+Template:Item	1353060776	2026-05-07T22:38:03Z
+Template:Kbd	1227081232	2024-06-03T15:51:34Z
+Template:Kbd/styles.css	1374121751	2026-09-10T00:11:20Z
+Template:Key press	770051181	2017-03-13T04:15:48Z
+Template:Key press/styles.css	1249182868	2024-10-03T17:12:25Z
+Template:Key top	1369268373	2026-08-13T23:16:20Z
+Template:Lang	984354947	2020-10-19T17:49:42Z
+Template:Ldr	1247610685	2024-09-25T02:12:55Z
+Template:List-defined references	1247610709	2024-09-25T02:13:07Z
+Template:Lorem ipsum	1234047316	2024-07-12T09:05:20Z
+Template:Lorem ipsum span	1225470576	2024-05-24T16:58:53Z
+Template:Lua	1365911170	2026-07-25T03:53:06Z
+Template:Lua sidebar	1368692002	2026-08-10T15:05:55Z
+Template:MONTHNAME	961873067	2020-06-10T21:21:03Z
+Template:MONTHNUMBER	1204293807	2024-02-06T21:07:17Z
+Template:Magic word	1333243106	2026-01-16T15:38:16Z
+Template:Magic word link	1372074394	2026-08-30T04:31:38Z
+Template:Main	1363280785	2026-07-09T05:15:34Z
+Template:Main other	1302994848	2025-07-28T14:53:49Z
+Template:Main/doc	1371494789	2026-08-26T20:05:49Z
+Template:Markup	1312864819	2025-09-23T01:47:39Z
+Template:Markup/row	1362872301	2026-07-06T19:06:00Z
+Template:Markup/styles.css	1374531855	2026-09-12T17:03:49Z
+Template:Markup2	1225917770	2024-05-27T14:21:11Z
+Template:Markupv	1369617350	2026-08-16T02:16:54Z
+Template:Mbox	1128067567	2022-12-18T05:46:16Z
+Template:MediaWiki URL rules	1076215752	2022-03-09T23:50:16Z
+Template:Minor planet	1013002819	2021-03-19T14:02:32Z
+Template:Mlx	1126736140	2022-12-10T23:52:31Z
+Template:Module link expanded	1227801910	2024-06-07T21:34:51Z
+Template:Mono	920965783	2019-10-13T01:15:06Z
+Template:Mono/styles.css	886049734	2019-03-04T00:01:15Z
+Template:Mp	1013002820	2021-03-19T14:02:32Z
+Template:Mvar	1368810725	2026-08-11T06:32:37Z
+Template:Mxtd	1346807642	2026-04-03T01:42:16Z
+Template:Myprefs	1286565891	2025-04-20T18:00:28Z
+Template:N/A	774483634	2017-04-08T19:34:39Z
+Template:N/a	1329219216	2025-12-24T14:35:05Z
+Template:NCJ	1261524557	2024-12-06T15:33:41Z
+Template:Nat	637411556	2014-12-10T01:54:16Z
+Template:National Criminal Justice reference	1358824521	2026-06-11T05:15:11Z
+Template:Navbar	776701623	2017-04-22T18:49:17Z
+Template:Navbox	1030560841	2021-06-26T18:05:09Z
+Template:Navbox bottom	1305415297	2025-08-11T23:13:27Z
+Template:Navbox lists	843687835	2018-05-30T19:49:39Z
+Template:Navbox suite	1377055264	2026-09-27T18:05:19Z
+Template:Navbox top	1209845226	2024-02-23T20:45:07Z
+Template:Navbox visibility	1342612432	2026-03-09T22:12:11Z
+Template:Navbox with collapsible groups	1271541513	2025-01-24T14:38:01Z
+Template:Navbox with collapsible groups/doc	1379095417	2026-10-07T22:59:04Z
+Template:Navbox/doc	1381415939	2026-10-22T09:12:40Z
+Template:Navigation templates	1244202685	2024-09-05T17:01:09Z
+Template:Needs	1233937621	2024-07-11T18:23:17Z
+Template:Never substitute	1372143350	2026-08-30T15:44:12Z
+Template:Next period	1317846889	2025-10-20T10:56:58Z
+Template:No	1378613231	2026-10-05T06:08:49Z
+Template:No mark	870132055	2018-11-22T16:38:34Z
+Template:No redirect	1324153741	2025-11-25T21:47:15Z
+Template:No2	1375755111	2026-09-19T21:35:48Z
+Template:Nobold	865390504	2018-10-23T17:15:13Z
+Template:Nobold/styles.css	886047488	2019-03-03T23:43:41Z
+Template:Nobr	645206656	2015-02-01T20:33:13Z
+Template:Nosubst	1244119418	2024-09-05T04:24:37Z
+Template:Not a typo	1366993232	2026-07-31T07:58:25Z
+Template:Notelist	1323680032	2025-11-23T04:31:33Z
+Template:Notelist-lg	892829020	2019-04-17T04:28:44Z
+Template:Notelist-lr	1366753244	2026-07-30T00:37:35Z
+Template:Notelist/doc	1363467295	2026-07-10T10:42:02Z
+Template:Notice	1331766858	2026-01-08T02:16:18Z
+Template:Nowiki template demo	729872540	2016-07-15T04:28:07Z
+Template:Nowiki2	1303279606	2025-07-30T02:19:23Z
+Template:Nowrap	692794261	2015-11-28T10:13:53Z
+Template:Ns has subpages	1074822270	2022-03-02T10:43:18Z
+Template:Nutshell	1322435653	2025-11-16T05:56:36Z
+Template:Oldid	873049882	2018-12-10T20:41:24Z
+Template:Ombox	948472472	2020-04-01T06:12:36Z
+Template:Ordered list	695189167	2015-12-14T10:30:21Z
+Template:PAGENAMETDOC	1361516740	2026-06-28T11:59:40Z
+Template:Pagetype	616197024	2014-07-09T08:29:38Z
+Template:Para	1350157132	2026-04-20T13:31:32Z
+Template:Paragraph break	994541887	2020-12-16T06:57:50Z
+Template:Param	1348405087	2026-04-12T13:41:20Z
+Template:Parameter	1365193129	2026-07-20T21:37:44Z
+Template:Parameter names example	1287053699	2025-04-23T18:00:14Z
+Template:Parameter value	1378785484	2026-10-06T03:46:17Z
+Template:Parameter value/styles.css	1378785308	2026-10-06T03:45:24Z
+Template:Paren	1196571838	2024-01-17T22:16:31Z
+Template:Pb	994541935	2020-12-16T06:58:19Z
+Template:Period color	1134136774	2023-01-17T04:45:05Z
+Template:Period end	772147419	2017-03-25T16:04:18Z
+Template:Period id	1025778489	2021-05-29T14:29:32Z
+Template:Period start	1368753817	2026-08-10T22:41:17Z
+Template:Phab	1250853113	2024-10-12T22:38:24Z
+Template:Phabricator	1318214894	2025-10-22T15:54:44Z
+Template:Pipe	1112674115	2022-09-27T13:42:50Z
+Template:Plain list	1374432215	2026-09-12T01:14:02Z
+Template:Plain list/doc	1378689772	2026-10-05T18:14:11Z
+Template:Plainlist	1374432165	2026-09-12T01:13:43Z
+Template:Plainlist/styles.css	1126788409	2022-12-11T06:59:53Z
+Template:Pluralize from text	1064683755	2022-01-09T17:59:39Z
+Template:Poem quote	1252325093	2024-10-20T21:09:20Z
+Template:Poem quote/doc	1365286279	2026-07-21T12:37:54Z
+Template:Pre	1361694400	2026-06-29T14:46:36Z
+Template:Pre/styles.css	1195917819	2024-01-15T20:21:34Z
+Template:PreCode	1374120648	2026-09-10T00:04:30Z
+Template:Preferences	1286628096	2025-04-21T01:45:25Z
+Template:Preferences/section	1367738499	2026-08-04T22:24:27Z
+Template:Preformatted code	1374120647	2026-09-10T00:04:30Z
+Template:Purge	772120883	2017-03-25T12:38:46Z
+Template:Pval	1379004740	2026-10-07T09:22:30Z
+Template:Pvalue	1379004756	2026-10-07T09:22:40Z
+Template:Q	1308599328	2025-08-30T11:34:00Z
+Template:Quotation templates	1325618182	2025-12-04T03:56:03Z
+Template:Quote	1265023752	2024-12-24T17:59:57Z
+Template:R	1380062808	2026-10-13T15:17:57Z
+Template:Redirect	827943535	2018-02-27T17:34:09Z
+Template:Redirect-distinguish	1366753288	2026-07-30T00:37:58Z
+Template:Redirect-distinguish-for	1106213566	2022-08-23T17:48:34Z
+Template:Redirect1	361421363	2010-05-11T05:37:54Z
+Template:Refbegin	1179183008	2023-10-08T12:55:12Z
+Template:Refbegin/styles.css	1365158831	2026-07-20T16:56:32Z
+Template:Refend	792167400	2017-07-24T21:40:56Z
+Template:Reflist	1328019882	2025-12-17T13:08:01Z
+Template:Reflist hide	1061599274	2021-12-22T17:59:56Z
+Template:Reflist/doc	1373322591	2026-09-05T08:28:39Z
+Template:Reflist/styles.css	1327269900	2025-12-13T15:43:44Z
+Template:Refname rules	1370723300	2026-08-22T19:13:57Z
+Template:Replace	1241191258	2024-08-19T20:57:32Z
+Template:Resize	1248251440	2024-09-28T13:55:16Z
+Template:Respond	1333476824	2026-01-18T00:57:44Z
+Template:Samp	1227066816	2024-06-03T13:55:20Z
+Template:Sandbox other	1304295879	2025-08-05T04:52:35Z
+Template:Section link	1310038722	2025-09-07T10:05:45Z
+Template:Sectionlink	821204039	2018-01-19T00:33:18Z
+Template:See	814506466	2017-12-09T06:09:36Z
+Template:See also	1292725734	2025-05-28T13:34:51Z
+Template:See also/doc	1375830425	2026-09-20T09:40:37Z
+Template:See section	760447205	2017-01-17T01:22:48Z
+Template:Self-reference	1147353328	2023-03-30T11:42:06Z
+Template:Selfref	1271787984	2025-01-25T18:35:17Z
+Template:Semantic markup templates	1381450291	2026-10-22T16:05:30Z
+Template:Sfn	1278382364	2025-03-02T03:30:06Z
+Template:Sfn/doc	1371744057	2026-08-28T05:43:01Z
+Template:SfnRef	965983067	2020-07-04T15:54:11Z
+Template:Sfnm	947692202	2020-03-27T22:18:25Z
+Template:Sfnote	1251113088	2024-10-14T13:42:11Z
+Template:Sfnp	1278382429	2025-03-02T03:30:41Z
+Template:Sfnref	827251181	2018-02-23T17:02:56Z
+Template:Short description	1336605381	2026-02-04T19:08:44Z
+Template:Short description/doc	1380606044	2026-10-16T19:55:22Z
+Template:Short description/lowercasecheck	1071437571	2022-02-12T16:35:05Z
+Template:Short description/test	1370419338	2026-08-21T01:27:15Z
+Template:Shortcut	1276746087	2025-02-20T14:12:16Z
+Template:Sic	1366991617	2026-07-31T07:40:08Z
+Template:Side box	774482268	2017-04-08T19:24:23Z
+Template:Sidebar	960641546	2020-06-04T02:43:13Z
+Template:Sidebar with collapsible lists	952702813	2020-04-23T17:08:31Z
+Template:Sidebar with collapsible lists/doc	1257642544	2024-11-16T00:03:55Z
+Template:Sidebar/doc	1366221227	2026-07-26T22:40:09Z
+Template:Sister project	1346659747	2026-04-02T03:01:25Z
+Template:Sister project/styles.css	1374954486	2026-09-15T01:14:19Z
+Template:Slink	1349609535	2026-04-18T03:12:32Z
+Template:Small	1313016425	2025-09-23T21:17:23Z
+Template:Smallcaps	1378802092	2026-10-06T05:16:01Z
+Template:Smallcaps/styles.css	920966791	2019-10-13T01:23:08Z
+Template:Smaller	1066438430	2022-01-18T10:48:21Z
+Template:Snd	827245678	2018-02-23T16:30:27Z
+Template:Sometimes	1233938106	2024-07-11T18:26:43Z
+Template:Source parameter	1348405086	2026-04-12T13:41:20Z
+Template:Spaced en dash	1338737046	2026-02-16T22:55:52Z
+Template:Spaces	687408551	2015-10-25T11:38:26Z
+Template:Stack	1165502946	2023-07-15T15:55:11Z
+Template:Stack/styles.css	1034237262	2021-07-18T17:40:22Z
+Template:Start date	1279926731	2025-03-11T11:58:05Z
+Template:Start date/doc	1372822211	2026-09-02T12:59:37Z
+Template:Startplainlist	1374474056	2026-09-12T07:48:33Z
+Template:Str left	741880261	2016-09-30T07:01:19Z
+Template:Str len	1028359684	2021-06-13T14:08:05Z
+Template:Str number/trim	1196157595	2024-01-16T16:33:34Z
+Template:Strikethrough	1095712315	2022-06-29T22:44:36Z
+Template:Strong	800858473	2017-09-16T03:10:40Z
+Template:Strong bad	1374126710	2026-09-10T00:49:58Z
+Template:Strong good	1374126211	2026-09-10T00:45:25Z
+Template:Strongbad	1374231683	2026-09-10T17:59:55Z
+Template:Stronggood	1374126212	2026-09-10T00:45:25Z
+Template:Sub	772120923	2017-03-25T12:38:47Z
+Template:Sup	1320970894	2025-11-07T21:16:10Z
+Template:Suppress categories	1305595942	2025-08-13T00:59:30Z
+Template:Syntaxhighlight	1374133296	2026-09-10T01:45:48Z
+Template:T	1091576724	2022-06-05T04:09:28Z
+Template:TOC limit	872451201	2018-12-07T07:36:09Z
+Template:TOC limit/styles.css	886046785	2019-03-03T23:36:55Z
+Template:TOC right	1044863180	2021-09-17T13:06:17Z
+Template:TOC right/styles.css	1044870489	2021-09-17T13:56:38Z
+Template:Tag	1343898983	2026-03-17T02:03:42Z
+Template:Template display	1274691061	2025-02-08T19:00:50Z
+Template:Template link	1270893692	2025-01-21T19:19:39Z
+Template:Template link code	989853163	2020-11-21T12:06:22Z
+Template:Template link expanded	989852943	2020-11-21T12:04:41Z
+Template:Template link expanded with subst	989853243	2020-11-21T12:06:51Z
+Template:Template link general	1007938714	2021-02-20T18:40:07Z
+Template:Template link interwiki	1340628683	2026-02-26T19:40:12Z
+Template:Template link interwiki 2	1342628155	2026-03-09T23:59:18Z
+Template:Template link null	989853210	2020-11-21T12:06:41Z
+Template:Template link with bold	1046926165	2021-09-28T03:40:57Z
+Template:Template link with link off	989853150	2020-11-21T12:06:17Z
+Template:Template link with parameters	989852922	2020-11-21T12:04:32Z
+Template:Template other	874062289	2018-12-16T22:06:25Z
+Template:Template parameter usage	1187064960	2023-11-27T06:57:32Z
+Template:Template redirect	1080342740	2022-03-31T17:59:41Z
+Template:Template redirects	639053416	2014-12-21T15:20:13Z
+Template:Template shortcut	1007144234	2021-02-16T17:54:32Z
+Template:Template shortcuts	827617148	2018-02-25T19:32:33Z
+Template:TemplateData header	1187786748	2023-12-01T11:27:04Z
+Template:TemplateDataHeader	827245774	2018-02-23T16:30:31Z
+Template:TemplateStyles	851101097	2018-07-20T02:32:34Z
+Template:Term	1228219840	2024-06-10T02:13:17Z
+Template:Thin space	1034940986	2021-07-22T18:00:13Z
+Template:Tick	1162133766	2023-06-27T05:39:15Z
+Template:Tiw	1342628157	2026-03-09T23:59:18Z
+Template:Tl	1006436965	2021-02-12T22:03:00Z
+Template:Tl1	1006437577	2021-02-12T22:06:58Z
+Template:Tl2	1335122378	2026-01-27T13:27:40Z
+Template:Tlb	1046926187	2021-09-28T03:41:05Z
+Template:Tlc	1002259966	2021-01-23T16:04:55Z
+Template:Tld	989735278	2020-11-20T18:52:18Z
+Template:Tlf	950726704	2020-04-13T14:42:57Z
+Template:Tlg	989730889	2020-11-20T18:19:26Z
+Template:Tlp	761532023	2017-01-23T13:35:17Z
+Template:Tlr	702044245	2016-01-28T02:35:51Z
+Template:Tlx	989735456	2020-11-20T18:53:35Z
+Template:Tlxs	989730350	2020-11-20T18:15:40Z
+Template:Tnull	989730544	2020-11-20T18:16:50Z
+Template:Tooltip	1320693375	2025-11-06T05:29:22Z
+Template:Tooltip/styles.css	1038841319	2021-08-15T03:04:59Z
+Template:Tp	1063094973	2022-01-01T05:37:19Z
+Template:Tracked	1007722189	2021-02-19T16:11:39Z
+Template:Tracked/styles.css	1264776157	2024-12-23T13:12:52Z
+Template:Tracks Wikidata	1178933032	2023-10-06T19:37:14Z
+Template:Transwiki guide	1307716495	2025-08-25T08:40:16Z
+Template:Trim	1118343756	2022-10-26T14:01:15Z
+Template:Txl	989735608	2020-11-20T18:54:46Z
+Template:UF-COinS	1362942825	2026-07-07T02:40:31Z
+Template:UF-date-part	1334341801	2026-01-22T23:38:50Z
+Template:UF-date-warn	1334341803	2026-01-22T23:38:52Z
+Template:Ubl	915193103	2019-09-11T19:30:27Z
+Template:Unbulleted list	930012296	2019-12-09T17:31:16Z
+Template:Unbulleted list/doc	1368676078	2026-08-10T12:51:02Z
+Template:Used in system	1363944440	2026-07-13T13:27:25Z
+Template:Uses TemplateStyles	1377281626	2026-09-28T17:59:50Z
+Template:V	904892275	2019-07-05T10:02:32Z
+Template:VTE	1306939804	2025-08-20T15:38:16Z
+Template:Vad	1051188697	2021-10-22T01:56:03Z
+Template:Var	816459039	2017-12-21T13:31:52Z
+Template:Var serif	1003228886	2021-01-28T00:48:16Z
+Template:Var serif/styles.css	1003227249	2021-01-28T00:37:58Z
+Template:Vertically aligned date	1051188707	2021-10-22T01:56:05Z
+Template:Warning	1331762330	2026-01-08T01:42:46Z
+Template:Wbr	1330456078	2025-12-31T14:28:14Z
+Template:Wikicite	1309920983	2025-09-06T18:11:30Z
+Template:Wikidata entity link	1308787165	2025-08-31T13:22:58Z
+Template:Wikipedia referencing	1353609729	2026-05-11T08:24:19Z
+Template:Wikipedia technical help	1374243141	2026-09-10T19:31:14Z
+Template:Wikipedia templates	1370709093	2026-08-22T17:11:16Z
+Template:Word break	1330456077	2025-12-31T14:28:14Z
+Template:Xmark	1369528017	2026-08-15T14:49:09Z
+Template:Xt	1346807356	2026-04-03T01:40:33Z
+Template:Xtag	1300163696	2025-07-12T16:44:11Z
+Template:Yes	1377850257	2026-10-01T14:20:13Z
+Template:Yes check	1335760809	2026-01-31T01:59:46Z
+Template:Yes/no	819688298	2018-01-10T19:22:36Z
+Template:Yesno	1326051197	2025-12-06T20:28:33Z
+Template:Yesno-no	825510157	2018-02-13T20:27:17Z
+Template:Yesno-yes	829824778	2018-03-11T01:06:35Z
+Template:\	695047466	2015-12-13T11:55:37Z

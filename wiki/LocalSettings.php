@@ -117,6 +117,7 @@ $wgNamespaceProtection[NS_FILE] = [ 'editcontent' ];
 $wgNamespaceProtection[NS_TEMPLATE] = [ 'editcontent' ];
 $wgNamespaceProtection[NS_HELP] = [ 'editcontent' ];
 $wgNamespaceProtection[NS_CATEGORY] = [ 'editcontent' ];
+$wgNamespaceProtection[828] = [ 'editcontent' ];   # Module: (Scribunto; its NS_MODULE constant isn't defined yet here)
 
 # Ordinary accounts: talk pages only, no uploads, no moves.
 foreach ( [ 'upload', 'reupload', 'reupload-own', 'move', 'move-subpages', 'move-rootuserpages',
@@ -144,6 +145,23 @@ $wgCaptchaQuestions = [
 ];
 
 ## Extensions (see extensions.md for where each comes from and its pinned version)
+# Visual editor (bundled): "Edit" opens the visual editor, "Edit source" the wikitext editor,
+# as on Wikipedia. Also available on SNAP: project pages.
+wfLoadExtension( 'VisualEditor' );
+$wgDefaultUserOptions['visualeditor-enable'] = 1;
+$wgVisualEditorAvailableNamespaces['Project'] = true;
+
+# Wikipedia's article toolkit (item 13): infoboxes, sidebars, navboxes, hatnotes, timelines and
+# citations are imported from Wikipedia (tools/import-wikipedia.py) and need these extensions.
+# All ship with 1.43 except TemplateStyles (pinned in the Dockerfile).
+wfLoadExtensions( [ 'ParserFunctions', 'Scribunto', 'TemplateStyles', 'TemplateData', 'Cite', 'WikiEditor', 'CodeEditor' ] );
+$wgScribuntoDefaultEngine = 'luasandbox';
+$wgScribuntoUseCodeEditor = true;
+# {{SHORTDESC:}} for Wikipedia's {{Short description}}: used in search suggestions. Like Wikipedia's
+# desktop site, the line under the title stays "From SNAP" rather than showing the description.
+wfLoadExtension( 'ShortDescription' );
+$wgShortDescriptionEnableTagline = false;
+
 # <choose uncached> on the Main Page: a new featured pick on every visit.
 wfLoadExtension( 'RandomSelection' );
 
