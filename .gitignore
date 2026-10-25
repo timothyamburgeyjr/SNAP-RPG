@@ -9,6 +9,9 @@ wiki/data/
 *.sql
 *.sql.gz
 
+# Cleaned upload copies made by tools/svg-for-wiki.py (the master is what's kept)
+*.wiki.svg
+
 # Paper-skin preview options (Tim picks one; only the chosen one is kept)
 wiki/theme/preview/
 
