@@ -54,7 +54,16 @@ $wgEnableUploads = true;
 $wgUseImageMagick = true;
 $wgImageMagickConvertCommand = '/usr/bin/convert';
 $wgFileExtensions = array_unique( array_merge( $wgFileExtensions, [ 'png', 'gif', 'jpg', 'jpeg', 'webp', 'svg', 'pdf' ] ) );
+# The audio/video/image types Wikipedia (Commons) accepts and our installed handlers can show.
+$wgFileExtensions = array_unique( array_merge( $wgFileExtensions,
+	[ 'mp3', 'ogg', 'oga', 'ogv', 'opus', 'wav', 'flac', 'webm', 'mid', 'tif', 'tiff' ] ) );
 $wgSVGConverter = 'rsvg';
+# Show images from Wikimedia Commons the way Wikipedia does (used by the imported Wikipedia infoboxes).
+$wgUseInstantCommons = true;
+# Wikipedia's image settings: thumbnail sizes 180/250/400 px, default 250 px; lazy-loaded images.
+$wgThumbLimits = [ 180, 250, 400 ];
+$wgDefaultUserOptions['thumbsize'] = 1;
+$wgNativeImageLazyLoading = true;
 $wgMaxUploadSize = 100 * 1024 * 1024;
 
 ## Skin
@@ -94,7 +103,8 @@ $wgAppleTouchIcon = "$wgScriptPath/branding/apple-touch-icon.png";
 $wgResourceModules['snap.theme'] = [
 	'localBasePath' => "$IP/theme",
 	'remoteBasePath' => "$wgScriptPath/theme",
-	'styles' => [ 'snap-theme.css', 'snap-mainpage.css' ],
+	// Wikipedia's own site stylesheets first (as Wikipedia loads them), then the SNAP palette and pages.
+	'styles' => [ 'wikipedia-site.css', 'snap-theme.css', 'snap-mainpage.css' ],
 ];
 $wgHooks['BeforePageDisplay'][] = static function ( $out ) {
 	$out->addModuleStyles( 'snap.theme' );
@@ -154,9 +164,81 @@ $wgVisualEditorAvailableNamespaces['Project'] = true;
 # Wikipedia's article toolkit (item 13): infoboxes, sidebars, navboxes, hatnotes, timelines and
 # citations are imported from Wikipedia (tools/import-wikipedia.py) and need these extensions.
 # All ship with 1.43 except TemplateStyles (pinned in the Dockerfile).
-wfLoadExtensions( [ 'ParserFunctions', 'Scribunto', 'TemplateStyles', 'TemplateData', 'Cite', 'WikiEditor', 'CodeEditor' ] );
+wfLoadExtensions( [ 'ParserFunctions', 'Scribunto', 'TemplateStyles', 'TemplateData', 'Cite', 'WikiEditor', 'CodeEditor', 'SyntaxHighlight_GeSHi' ] );
+# More of Wikipedia's bundled extensions: <poem>, <imagemap>, <inputbox>, <categorytree>, PDF pages,
+# and TitleBlacklist (Wikipedia's protection-level templates call its Lua library).
+wfLoadExtensions( [ 'Poem', 'ImageMap', 'InputBox', 'CategoryTree', 'PdfHandler', 'TitleBlacklist' ] );
+
+# Wikipedia's extra namespaces that its templates refer to.
+define( 'NS_PORTAL', 100 );
+define( 'NS_PORTAL_TALK', 101 );
+define( 'NS_DRAFT', 118 );
+define( 'NS_DRAFT_TALK', 119 );
+$wgExtraNamespaces[NS_PORTAL] = 'Portal';
+$wgExtraNamespaces[NS_PORTAL_TALK] = 'Portal_talk';
+$wgExtraNamespaces[NS_DRAFT] = 'Draft';
+$wgExtraNamespaces[NS_DRAFT_TALK] = 'Draft_talk';
+$wgNamespaceProtection[NS_PORTAL] = [ 'editcontent' ];
+$wgNamespaceProtection[NS_DRAFT] = [ 'editcontent' ];
+# And the rest of Wikipedia's article extensions (bundles pinned in the Dockerfile):
+# <timeline> charts, <section>/#lst, <hiero>, <charinsert>, <score> sheet music, <mapframe>/<maplink> maps.
+wfLoadExtensions( [ 'timeline', 'LabeledSectionTransclusion', 'wikihiero', 'CharInsert', 'Score', 'JsonConfig', 'Kartographer' ] );
+# JsonConfig as on Wikipedia: tabular and map data pages (Data:*.tab, Data:*.map) are read from
+# Wikimedia Commons, and Lua modules may load them (Module:TNT uses this for template documentation).
+$wgJsonConfigEnableLuaSupport = true;
+$wgJsonConfigModels['Tabular.JsonConfig'] = 'JsonConfig\JCTabularContent';
+$wgJsonConfigs['Tabular.JsonConfig'] = [
+	'namespace' => 486,
+	'nsName' => 'Data',
+	'pattern' => '/.\.tab$/',
+	'license' => 'CC0-1.0',
+	'isLocal' => false,
+	'remote' => [ 'url' => 'https://commons.wikimedia.org/w/api.php' ],
+];
+$wgJsonConfigModels['Map.JsonConfig'] = 'JsonConfig\JCMapDataContent';
+$wgJsonConfigs['Map.JsonConfig'] = [
+	'namespace' => 486,
+	'nsName' => 'Data',
+	'pattern' => '/.\.map$/',
+	'license' => 'CC0-1.0',
+	'isLocal' => false,
+	'remote' => [ 'url' => 'https://commons.wikimedia.org/w/api.php' ],
+];
+$wgTimelineFontDirectory = '/usr/share/fonts/truetype/freefont';
+$wgTimelineFontFile = 'FreeSans.ttf';
+# Score: Wikipedia currently has sheet music switched off ("Musical scores are temporarily disabled"),
+# because LilyPond can run code from a page unless it is sandboxed. Same here, same message.
+$wgScoreDisableExec = true;
+# Maps: Wikimedia's own map tiles may only be used on Wikimedia sites, so maps draw from
+# OpenStreetMap's tile server instead (Tim's choice, 2026-10-25). Same map component as Wikipedia.
+$wgKartographerMapServer = 'https://tile.openstreetmap.org';
+$wgKartographerDfltStyle = '';
+$wgKartographerStyles = [ '' ];
+$wgKartographerStaticMapframe = false;
 $wgScribuntoDefaultEngine = 'luasandbox';
 $wgScribuntoUseCodeEditor = true;
+# GeoData provides {{#coordinates:}} (as on Wikipedia). WikibaseStub gives Wikipedia's modules the
+# mw.wikibase library they expect, with every lookup answering "no Wikidata item".
+wfLoadExtensions( [ 'GeoData', 'WikibaseStub' ] );
+# Audio/video player and pronunciation buttons, as on Wikipedia. Media comes from Commons with its
+# ready-made playable versions, so nothing is converted here; Phonos plays recorded files only.
+wfLoadExtensions( [ 'TimedMediaHandler', 'Phonos' ] );
+$wgEnableTranscode = false;
+$wgPhonosIPARenderingEnabled = false;
+# <math> formulas, rendered the way Wikipedia renders them: MathML with an SVG fallback,
+# produced by Wikimedia's own math service.
+wfLoadExtension( 'Math' );
+$wgMathValidModes = [ 'mathml' ];
+$wgDefaultUserOptions['math'] = 'mathml';
+$wgMathFullRestbaseURL = 'https://wikimedia.org/api/rest_';
+# Room for the infobox test page (SNAP:Infobox gallery) to hold every box on one page.
+# Wikipedia's limits are 2 MB per page and 50 MB of Lua memory; they don't change how anything looks.
+$wgMaxArticleSize = 8192;
+# Wikipedia's limit on "expensive" lookups per page (does-this-page-exist checks etc.). MediaWiki's default
+# is 100; Wikipedia's template documentation pages need more (Infobox person's uses 130 on Wikipedia).
+$wgExpensiveParserFunctionLimit = 500;
+$wgScribuntoEngineConf['luasandbox']['memoryLimit'] = 200 * 1024 * 1024;
+$wgScribuntoEngineConf['luasandbox']['cpuLimit'] = 30;
 # {{SHORTDESC:}} for Wikipedia's {{Short description}}: used in search suggestions. Like Wikipedia's
 # desktop site, the line under the title stays "From SNAP" rather than showing the description.
 wfLoadExtension( 'ShortDescription' );

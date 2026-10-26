@@ -1,0 +1,83 @@
+{{Short description|Example article showing the wiki's Wikipedia-style toolkit}}
+{{About|an invented guild used as an example|real Calador pages|Calador}}
+<div style="border:1px dashed #a89f8c;padding:0.4em 0.8em;margin-bottom:1em;">'''Example only, not canon.''' This page shows what a SNAP article can look like. Everything about the Lantern Guild is made up for the demonstration.</div>
+{{Infobox organization
+| image_alt           = The SNAP A, used here as a stand-in emblem
+| caption             = Stand-in emblem
+| logo                = SNAP A icon.svg
+| map                 =
+| formation           = Year 312 of the Commonwealth
+| extinction          =
+| type                = Craft guild
+| status              =
+| purpose             =
+| headquarters        = [[Calador Prime]]
+| coordinates         =
+| language            =
+| leader_title        = Master of Lamps
+| leader_name         = Ana Vell
+| leader_title2       =
+| leader_name2        =
+| main_organ          =
+| parent_organization =
+| affiliations        =
+| budget              =
+| remarks             =
+| name                = The Lantern Guild
+| bgcolor             =
+| fgcolor             =
+| image_border        =
+| image_size          =
+| map_size            =
+| map_alt             =
+| map_caption         =
+| abbreviation        =
+| goal                =
+| region_served       =
+| membership          = ~400 lamplighters{{efn|Estimate from the guild rolls; apprentices are not counted.}}
+| num_staff           =
+| num_volunteers      =
+| website             =
+}}
+The '''Lantern Guild''' is a craft guild of lamplighters founded in the year 312 of the Commonwealth on [[Calador Prime]].<ref name="annals">{{Cite book |title=Annals of the Commonwealth |author=Unknown scribe |year=2026 |page=12}}</ref> It keeps the public lamps of the capital burning and trains apprentices in the old oil-lamp craft.
+
+== History ==
+{{Main|History of the Lantern Guild}}
+The guild began as an informal company of night workers and received its charter after the long blackout of 311.<ref name="annals" /> By the mid-fourth century it had chapters in every district of the capital.<ref>{{Cite book |title=Guild rolls, district chapters |publisher=Lantern Guild archive |year=2026}}</ref>
+
+=== Timeline ===
+{{Graphical timeline
+| title = The Lantern Guild
+| from = 300 | to = 400
+| height = 16 | height-unit = em
+| scale-increment = 20
+| bar1-from = 300 | bar1-to = 312 | bar1-left = 0 | bar1-right = 1 | bar1-text = Night companies | bar1-colour = #dfe3e7
+| bar2-from = 312 | bar2-to = 400 | bar2-left = 0 | bar2-right = 1 | bar2-text = Chartered guild | bar2-colour = #f7ddd2
+| caption = Eras of the guild (example)
+}}
+
+== Organization ==
+Members advance from '''apprentice''' to '''journeyman''' to '''lamplighter'''. A Master of Lamps is chosen every ten years.
+
+{{Quote|text=No street left dark.|author=Guild motto}}
+
+== See also ==
+* [[The Commonwealth]]
+* [[Calador Prime]]
+
+== Notes ==
+{{Notelist}}
+
+== References ==
+{{Reflist}}
+
+{{Navbox
+| name  = SNAP:Sandbox/Example article
+| title = Guilds of Calador (example)
+| group1 = Crafts
+| list1 = {{Hlist|The Lantern Guild|The Glassworkers|The Cartographers}}
+| group2 = Places
+| list2 = {{Hlist|[[Calador Prime]]|[[The Lighthouse]]}}
+}}
+
+[[Category:Example pages]]

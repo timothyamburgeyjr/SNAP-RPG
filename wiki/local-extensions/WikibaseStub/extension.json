@@ -1,0 +1,24 @@
+{
+	"name": "WikibaseStub",
+	"author": "SNAP wiki",
+	"description": "Provides mw.wikibase to Lua modules copied from Wikipedia, answering every Wikidata lookup with \"no Wikidata item\" (this wiki has no Wikidata).",
+	"license-name": "GPL-2.0-or-later",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.43",
+		"extensions": {
+			"Scribunto": "*"
+		}
+	},
+	"AutoloadNamespaces": {
+		"SnapWiki\\WikibaseStub\\": "src/"
+	},
+	"ExtensionMessagesFiles": {
+		"WikibaseStubMagic": "WikibaseStub.i18n.magic.php"
+	},
+	"Hooks": {
+		"ScribuntoExternalLibraries": "SnapWiki\\WikibaseStub\\Hooks::onScribuntoExternalLibraries",
+		"ParserFirstCallInit": "SnapWiki\\WikibaseStub\\Hooks::onParserFirstCallInit"
+	},
+	"manifest_version": 2
+}

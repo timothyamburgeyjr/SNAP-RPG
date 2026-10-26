@@ -17,6 +17,7 @@ import re
 import subprocess
 import sys
 import tempfile
+import time
 from pathlib import Path
 
 import requests
@@ -32,11 +33,23 @@ http = requests.Session()
 http.headers["User-Agent"] = "SNAP-wiki-importer/1.0 (https://snap.amburgey.dev; tim.amburgey@emsar.com)"
 
 
+def polite(method, url, **kw):
+    """One request to Wikipedia, paced, retrying when it says to slow down (429) or is busy (5xx)."""
+    for attempt in range(8):
+        time.sleep(0.5)
+        r = http.request(method, url, timeout=120, **kw)
+        if r.status_code == 429 or r.status_code >= 500:
+            time.sleep(int(r.headers.get("Retry-After", 0)) or 10 * (attempt + 1))
+            continue
+        r.raise_for_status()
+        return r
+    r.raise_for_status()
+    return r
+
+
 def api(**params):
     params.update(format="json", formatversion=2)
-    r = http.get(API, params=params, timeout=60)
-    r.raise_for_status()
-    return r.json()
+    return polite("GET", API, params=params).json()
 
 
 def dependencies(title):
@@ -58,10 +71,8 @@ def dependencies(title):
 
 
 def export(titles):
-    r = http.get(API, params={"action": "query", "titles": "|".join(titles), "export": 1,
-                              "exportnowrap": 1}, timeout=120)
-    r.raise_for_status()
-    return r.text
+    return polite("POST", API, data={"action": "query", "titles": "|".join(titles), "export": 1,
+                                     "exportnowrap": 1}).text
 
 
 def recorded():
