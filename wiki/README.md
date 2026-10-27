@@ -33,11 +33,11 @@ template's dependencies and documentation along.
 The `mcp` service is the MediaWiki MCP Server (pinned in `compose.yaml`), settings in `mcp/config.json`.
 claude.ai custom connector URL: `https://snap-mcp.amburgey.dev/mcp` (second route in the same tunnel, to 127.0.0.1:8181).
 - Nothing works without signing in through the wiki (`"private": true`); edits are made as the account that signed in.
-  The connector signs in as **SNAP Claude** (administrator; not bureaucrat or interface admin).
+  The connector signs in as **Captain Trips** (Tim's choice, so work is credited to him).
 - The OAuth app is "SNAP MCP connector" (Special:OAuthListConsumers). Its ID and secret are in `.env`;
   the wiki's OAuth signing keys are in `secrets/` (both gitignored).
 - To cut Claude off: remove the connector in claude.ai, or as Captain Trips disable the app at
-  Special:OAuthManageConsumers, or take SNAP Claude out of the administrator group.
+  Special:OAuthManageConsumers.
 - Claude can upload files only from the repo's `files/` folder (mounted read-only) or from a web address.
 
 ## Start and stop (in this folder)

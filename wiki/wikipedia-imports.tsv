@@ -24,6 +24,7 @@ Module:Aligned table	1000159883	2021-01-13T21:53:43Z
 Module:Anchor	980153746	2020-09-24T22:32:51Z
 Module:Anchor/doc	1378994808	2026-10-07T07:33:04Z
 Module:Anchored list	1375657177	2026-09-19T04:33:31Z
+Module:Annotated link	1299678558	2025-07-09T19:45:58Z
 Module:Archive	1288579244	2025-05-03T15:40:12Z
 Module:Archive list	1338841345	2026-02-17T15:19:42Z
 Module:Archive/config	1313943419	2025-09-28T23:04:27Z
@@ -256,6 +257,7 @@ Module:Gapnum	1302037391	2025-07-23T01:10:07Z
 Module:Gapnum/doc	1302037407	2025-07-23T01:10:15Z
 Module:Gaps	880025786	2019-01-24T21:24:24Z
 Module:Gaps/doc	1242990592	2024-08-29T21:32:40Z
+Module:GetShortDescription	1139573363	2023-02-15T20:29:21Z
 Module:Graphical timeline	1363099047	2026-07-08T01:26:35Z
 Module:Graphical timeline/doc	1369992820	2026-08-18T13:21:23Z
 Module:Harvc	1271978418	2025-01-26T16:13:50Z
@@ -628,6 +630,7 @@ Module:Jct	1130211834	2022-12-29T03:42:28Z
 Module:Key	1071502366	2022-02-13T00:06:54Z
 Module:Labelled list hatnote	1292769084	2025-05-28T18:18:35Z
 Module:Lang	1381639042	2026-10-23T20:48:59Z
+Module:Lang-zh	1328887181	2025-12-22T10:26:41Z
 Module:Lang/ISO 639 synonyms	815286590	2017-12-13T23:10:47Z
 Module:Lang/ISO 639 synonyms/doc	1252042663	2024-10-19T13:48:13Z
 Module:Lang/configuration	1363080099	2026-07-07T22:37:46Z
@@ -896,6 +899,7 @@ Module:Random slideshow/styles.css	1021884966	2021-05-07T06:25:45Z
 Module:Redirect	1043472510	2021-09-10T07:46:37Z
 Module:Redirect category printworthiness	1250789433	2024-10-12T14:51:54Z
 Module:Redirect hatnote	1108677549	2022-09-05T18:21:32Z
+Module:Redirect template	1305417825	2025-08-11T23:33:36Z
 Module:Redirect-distinguish	1366753314	2026-07-30T00:38:06Z
 Module:Redirect-distinguish-for	1363561095	2026-07-11T00:16:05Z
 Module:Redirect-multi	815611106	2017-12-15T22:32:18Z
@@ -903,6 +907,7 @@ Module:Redirect/doc	1336869650	2026-02-06T05:11:39Z
 Module:Reply to	1364449249	2026-07-16T16:20:28Z
 Module:Resolve category redirect	1334431869	2026-01-23T14:19:40Z
 Module:ResolveEntityId	1119627112	2022-11-02T15:33:48Z
+Module:Respell	910816349	2019-08-14T17:08:51Z
 Module:Road data/browsetable	1240674742	2024-08-16T18:00:15Z
 Module:Road data/browsetable/styles.css	1241597584	2024-08-22T02:59:09Z
 Module:Road data/countrymask	1039147937	2021-08-17T00:20:36Z
@@ -1128,12 +1133,16 @@ Template:!+	1251543075	2024-10-16T18:00:18Z
 Template:!+/doc	1334456866	2026-01-23T17:28:43Z
 Template:!-	582040159	2013-11-17T11:54:04Z
 Template:!-/doc	1334456873	2026-01-23T17:28:47Z
+Template:!bxt	1346808072	2026-04-03T01:44:50Z
 Template:!mxt	1346808049	2026-04-03T01:44:40Z
 Template:!tq	1346834377	2026-04-03T06:05:45Z
 Template:!tqi	1293165649	2025-05-31T03:01:50Z
 Template:!xt	1346808016	2026-04-03T01:44:30Z
+"Template:"" ' """	850486575	2018-07-16T05:03:42Z
 "Template:""'"	1242175230	2024-08-25T11:42:52Z
 Template:'	1112666443	2022-09-27T12:43:06Z
+"Template:' """	1347932930	2026-04-09T18:00:08Z
+Template:'s	1365457637	2026-07-22T15:03:02Z
 Template:(	690395454	2015-11-13T02:17:23Z
 Template:(!	733753716	2016-08-09T22:00:28Z
 Template:(!/doc	1371621306	2026-08-27T13:01:27Z
@@ -1154,6 +1163,7 @@ Template:)/doc	1022001668	2021-05-07T21:01:56Z
 Template:*	211219991	2008-05-09T08:57:01Z
 Template:+-	318239698	2009-10-06T12:44:05Z
 Template:-	769942854	2017-03-12T14:41:31Z
+"Template:-"""	1305595094	2025-08-13T00:53:13Z
 Template:--	745489358	2016-10-21T12:17:19Z
 Template:-r	1128811392	2022-12-22T03:20:07Z
 Template:0	1265205714	2024-12-25T18:28:38Z
@@ -1296,6 +1306,7 @@ Template:Angbr IPA	1266009104	2024-12-29T17:50:30Z
 Template:Angle bracket	1144176362	2023-03-12T06:36:44Z
 Template:Anglicise rank	1289529546	2025-05-09T06:10:49Z
 Template:Anglicise rank/doc	1356462715	2026-05-27T22:35:14Z
+Template:Annotated link	1138878433	2023-02-12T03:37:55Z
 Template:Annotation	1220444723	2024-04-23T20:26:14Z
 Template:Any	1233940880	2024-07-11T18:46:43Z
 Template:Apostrophe	1112666442	2022-09-27T12:43:06Z
@@ -1369,6 +1380,7 @@ Template:Autotaxobox system navbox	1138353141	2023-02-09T06:01:09Z
 Template:Auxiliary template common notice	1043845082	2021-09-12T08:40:51Z
 Template:Avoid wrap	1349615669	2026-04-18T03:51:59Z
 Template:Aye	1277321428	2025-02-24T00:01:02Z
+Template:Ayin	1049413775	2021-10-11T18:13:56Z
 Template:B sup	909513325	2019-08-05T22:24:56Z
 Template:BAE	1349920880	2026-04-19T13:37:26Z
 Template:BAP	1349920798	2026-04-19T13:36:53Z
@@ -1388,6 +1400,10 @@ Template:Bandy Alt Links	1145918533	2023-03-21T18:40:27Z
 Template:Bangladesh Navy ship	1349920727	2026-04-19T13:36:30Z
 Template:Bar box	1356329500	2026-05-27T03:01:15Z
 Template:Bar percent	1314907905	2025-10-03T21:10:46Z
+Template:Barack Obama series	1358159695	2026-06-06T23:53:10Z
+Template:Barack Obama series/doc	888756537	2019-03-21T05:49:04Z
+Template:Barack Obama sidebar	861050890	2018-09-24T19:55:36Z
+Template:Barack Obama/doc	1047757597	2021-10-02T12:11:45Z
 Template:Bare URL AV media	1093794108	2022-06-18T21:20:09Z
 Template:Bare URL AV media/doc	1093793744	2022-06-18T21:17:39Z
 Template:Bare URL DOC	1178285854	2023-10-02T18:23:45Z
@@ -1537,6 +1553,7 @@ Template:Buzzword	1304152045	2025-08-04T08:28:03Z
 Template:Buzzword inline	909326211	2019-08-04T18:00:19Z
 Template:Buzzword inline/doc	1236735943	2024-07-26T08:04:57Z
 Template:Buzzword/doc	952771523	2020-04-24T00:40:15Z
+Template:Bxt	1346807508	2026-04-03T01:41:20Z
 Template:By how much	872229445	2018-12-06T00:48:50Z
 Template:By how much/doc	1351618802	2026-04-29T02:53:43Z
 Template:C	1226904921	2024-06-02T14:03:48Z
@@ -2119,12 +2136,14 @@ Template:Common metric prefixes	1076168839	2022-03-09T18:44:12Z
 Template:Common passage	1239631158	2024-08-10T14:54:16Z
 Template:Common passage/doc	1239631671	2024-08-10T14:57:54Z
 Template:Commons	1022519793	2021-05-10T23:47:52Z
+Template:Commons category	1368933944	2026-08-11T23:14:28Z
 Template:Commons category-inline	1099714367	2022-07-22T06:34:21Z
 Template:Commons templates location	1339196721	2026-02-19T11:57:04Z
 Template:Commons templates location/doc	1188849070	2023-12-08T01:47:36Z
 Template:Commons templates see also	1377689011	2026-09-30T16:07:10Z
 Template:Commons templates see also/doc	1188849171	2023-12-08T01:48:24Z
 Template:Commons-inline	1037799653	2021-08-08T19:51:44Z
+Template:Commonscat	774347929	2017-04-07T20:42:07Z
 Template:Compare pages	1080716819	2022-04-03T00:31:35Z
 Template:Compared to?	783577178	2017-06-03T07:10:48Z
 Template:Compared to?/doc	1236403408	2024-07-24T14:13:46Z
@@ -2696,6 +2715,7 @@ Template:Cref2/doc	804649894	2017-10-10T09:14:06Z
 Template:Criticism section	1364179479	2026-07-15T00:35:08Z
 Template:Criticism section/doc	1368523752	2026-08-09T15:37:00Z
 Template:Cross	1362309779	2026-07-03T03:08:44Z
+Template:Cross-reference	778709452	2017-05-04T19:53:25Z
 Template:Crossref	804500384	2017-10-09T12:24:30Z
 Template:Crossreference	1190790325	2023-12-19T21:40:27Z
 Template:Crossreference/styles.css	1033199720	2021-07-12T06:50:43Z
@@ -2750,6 +2770,7 @@ Template:DRV templates	1345817769	2026-03-28T10:54:50Z
 Template:DWT	1301216481	2025-07-18T18:00:20Z
 Template:Dablinks	1331750356	2026-01-08T00:17:43Z
 Template:Dablinks/doc	1300997904	2025-07-17T15:18:59Z
+Template:Dabnav	1320549884	2025-11-05T11:17:09Z
 Template:Dagger	1232679883	2024-07-05T01:13:27Z
 Template:Dark mode invert	1316137751	2025-10-10T18:00:43Z
 Template:Dark mode invert/doc	1379481554	2026-10-10T06:42:38Z
@@ -2867,15 +2888,20 @@ Template:Dictionary definition	1329216266	2025-12-24T14:09:27Z
 Template:Dictionary definition/doc	1306494357	2025-08-18T01:27:47Z
 Template:Died of wounds	1377902936	2026-10-01T21:33:16Z
 Template:Diff	714526695	2016-04-10T08:58:51Z
+Template:Diff2	827245172	2018-02-23T16:29:42Z
 Template:Digits	827245173	2018-02-23T16:29:42Z
 Template:Dimensionless Hubble constant	1235891723	2024-07-21T19:26:24Z
 Template:Directories box	1360901871	2026-06-24T10:51:42Z
 Template:Directories box/doc	1337622440	2026-02-10T15:19:46Z
 Template:Directory	1329216044	2025-12-24T14:07:16Z
 Template:Directory/doc	1380225576	2026-10-14T14:44:19Z
+Template:Disambiguation	1381727679	2026-10-24T11:30:35Z
 Template:Disambiguation needed	1334853527	2026-01-26T00:33:27Z
 Template:Disambiguation needed/doc	1303069607	2025-07-28T23:29:51Z
 Template:Disambiguation page short description	1028539450	2021-06-14T15:34:55Z
+Template:Disambiguation/cat	1304254026	2025-08-04T23:15:58Z
+Template:Disambiguation/cat/doc	1358957438	2026-06-12T02:37:46Z
+Template:Disambiguation/doc	1358987801	2026-06-12T09:14:43Z
 Template:Dispute templates	1329888445	2025-12-28T12:37:39Z
 Template:Distinguish	1137476713	2023-02-04T21:16:13Z
 Template:Distressing article	1323857573	2025-11-24T03:49:09Z
@@ -2918,6 +2944,7 @@ Template:Done	1138072476	2023-02-07T22:07:26Z
 Template:Dot	1243598286	2024-09-02T11:00:30Z
 Template:Dot size	1368527159	2026-08-09T16:07:30Z
 Template:Double+single	872298762	2018-12-06T13:53:32Z
+Template:Double+single+double	872298835	2018-12-06T13:54:06Z
 Template:Double-dagger	1235620742	2024-07-20T08:08:39Z
 Template:Doubly escaped wikilink	917873640	2019-09-25T22:12:56Z
 Template:Doubly escaped wikilink/doc	917878779	2019-09-25T22:44:31Z
@@ -2999,6 +3026,7 @@ Template:EduBase/doc	1191944136	2023-12-26T18:56:42Z
 Template:Efn	1197504050	2024-01-20T20:12:38Z
 Template:Efn-lg	1139827358	2023-02-17T03:04:35Z
 Template:Efn-lr	1327355149	2025-12-14T00:16:01Z
+Template:Efn-ua	1305596763	2025-08-13T01:06:35Z
 Template:Efn-ur	1360951599	2026-06-24T18:00:21Z
 Template:Efn/doc	1362287907	2026-07-03T00:02:39Z
 Template:Egn	1260797688	2024-12-02T17:53:44Z
@@ -3092,6 +3120,7 @@ Template:European Council	1357800529	2026-06-04T19:24:51Z
 Template:Evalns	771834929	2017-03-23T19:59:59Z
 Template:Examine	992522931	2020-12-05T18:35:17Z
 Template:Examine Wikidata item	1269647463	2025-01-15T18:13:34Z
+Template:Example HTML comment	1151610946	2023-04-25T03:07:10Z
 Template:Example link code	1309003259	2025-09-01T16:31:15Z
 Template:Example needed	1260824346	2024-12-02T20:40:49Z
 Template:Example needed span	986779109	2020-11-02T23:27:29Z
@@ -3100,11 +3129,14 @@ Template:Example needed-span	939277122	2020-02-05T13:16:13Z
 Template:Example needed/doc	1366439204	2026-07-28T01:29:56Z
 Template:Example text	1346807354	2026-04-03T01:40:33Z
 Template:Example text bad	1346808014	2026-04-03T01:44:30Z
+Template:Example text bold	1346807506	2026-04-03T01:41:20Z
+Template:Example text bold bad	1346808070	2026-04-03T01:44:50Z
 Template:Example text deprecated	1346807700	2026-04-03T01:42:40Z
 Template:Example text monospaced	1346807455	2026-04-03T01:41:04Z
 Template:Example text monospaced bad	1346808048	2026-04-03T01:44:40Z
 Template:Example text monospaced deprecated	1346807641	2026-04-03T01:42:16Z
 Template:Example text monospaced neutral	1346807667	2026-04-03T01:42:29Z
+Template:Example text neutral	1346807800	2026-04-03T01:43:14Z
 Template:Example text neutral 2	1346807753	2026-04-03T01:43:02Z
 Template:Excerpt	1097065471	2022-07-08T12:04:35Z
 Template:Excessive examples	1376336931	2026-09-23T14:54:50Z
@@ -3454,6 +3486,8 @@ Template:Grid list	1367483406	2026-08-03T10:02:10Z
 Template:Gridlist	1367483670	2026-08-03T10:05:17Z
 Template:Gross register tonnage	1235883854	2024-07-21T18:35:31Z
 Template:Gross tonnage	1368714695	2026-08-10T17:59:52Z
+Template:Guideline	1323920094	2025-11-24T14:34:33Z
+Template:Guideline list	1368897485	2026-08-11T18:21:26Z
 Template:HDMS	1349947127	2026-04-19T16:16:21Z
 Template:HMAS	1349947046	2026-04-19T16:15:57Z
 Template:HMBS	1349946917	2026-04-19T16:15:14Z
@@ -3473,6 +3507,7 @@ Template:HTMS	1349943455	2026-04-19T15:57:13Z
 Template:Hab	1009362226	2021-02-28T04:53:12Z
 Template:Hair space	1039143162	2021-08-16T23:32:36Z
 Template:Hairspace	1182495442	2023-10-29T18:00:42Z
+Template:Hamza	1231275766	2024-06-27T13:05:20Z
 Template:Handball roster doc	1268100047	2025-01-08T04:25:55Z
 Template:Hanging indent	1044523947	2021-09-15T17:59:47Z
 Template:Harv	1202117386	2024-02-02T02:30:53Z
@@ -3550,6 +3585,8 @@ Template:High-risk	1149009627	2023-04-09T16:46:44Z
 Template:High-speed craft	1349944321	2026-04-19T16:01:35Z
 Template:High-use	1157688598	2023-05-30T09:39:48Z
 Template:Highlight	1294139409	2025-06-05T21:11:36Z
+Template:Highlight round	1345078001	2026-03-24T04:59:56Z
+Template:Highlight round/styles.css	1379478146	2026-10-10T06:08:28Z
 Template:Highlight/core	1297477463	2025-06-26T12:25:28Z
 Template:Highuse	866615548	2018-10-31T12:51:48Z
 Template:Highway detail hatnote	1300329581	2025-07-13T18:12:00Z
@@ -3593,6 +3630,7 @@ Template:How/doc	953085063	2020-04-25T17:00:36Z
 Template:Hp	873455412	2018-12-13T08:34:42Z
 Template:Hr	888215602	2019-03-17T18:05:07Z
 Template:Hsb	1055241208	2021-11-14T18:47:49Z
+Template:Hsp	1366753438	2026-07-30T00:38:35Z
 Template:Hst	1049415547	2021-10-11T18:23:46Z
 Template:Hub	1235891725	2024-07-21T19:26:24Z
 Template:Huge	1329416420	2025-12-26T01:03:04Z
@@ -3822,6 +3860,7 @@ Template:Infobox Treaty	821201767	2018-01-19T00:30:25Z
 Template:Infobox UNESCO World Heritage Site	1365908898	2026-07-25T03:28:38Z
 Template:Infobox UNESCO World Heritage Site/doc	1365800432	2026-07-24T13:39:14Z
 Template:Infobox academic	1380163308	2026-10-14T04:06:55Z
+Template:Infobox administration	1172060422	2023-08-24T18:00:11Z
 Template:Infobox aero engine	1321554177	2025-11-11T05:55:54Z
 Template:Infobox aircraft	1372488244	2026-09-01T00:18:16Z
 Template:Infobox aircraft engine	1321627997	2025-11-11T18:00:36Z
@@ -4121,6 +4160,10 @@ Template:Infobox hospital	1364034562	2026-07-14T02:43:18Z
 Template:Infobox hospital/care system	827250891	2018-02-23T17:02:25Z
 Template:Infobox hospital/doc	1362236431	2026-07-02T18:02:23Z
 Template:Infobox hospital/lists	1330058905	2025-12-29T06:10:54Z
+Template:Infobox incumbency	1373725499	2026-09-07T16:06:29Z
+Template:Infobox incumbency/bodystyle	1360616225	2026-06-22T16:17:01Z
+Template:Infobox incumbency/doc	1374437900	2026-09-12T01:54:49Z
+Template:Infobox incumbency/seal	1362385942	2026-07-03T16:39:15Z
 Template:Infobox instrument	1358269199	2026-06-07T17:44:42Z
 Template:Infobox instrument/Classification	567184380	2013-08-05T00:27:44Z
 Template:Infobox instrument/Color	819682309	2018-01-10T18:59:12Z
@@ -4633,6 +4676,7 @@ Template:LPR	1247613181	2024-09-25T02:31:10Z
 Template:LSR	1268024920	2025-01-07T21:03:11Z
 Template:La-admin	488705402	2012-04-22T20:24:37Z
 Template:Label	1305413658	2025-08-11T22:58:52Z
+Template:Labeldata	1334451968	2026-01-23T16:52:59Z
 Template:Labsquery	1355822241	2026-05-24T03:09:03Z
 Template:Labsquery/doc	1212762949	2024-03-09T13:27:29Z
 Template:Lacking ISBN	1325477277	2025-12-03T07:40:29Z
@@ -4641,6 +4685,7 @@ Template:Lang	984354947	2020-10-19T17:49:42Z
 Template:Lang unset italics	1376197293	2026-09-22T18:00:02Z
 Template:Lang-xx-two-script documentation	1378773060	2026-10-06T02:36:22Z
 Template:Lang-xx-two-script documentation/doc	1257323217	2024-11-14T09:37:11Z
+Template:Lang-zh	1359605878	2026-06-16T05:24:18Z
 Template:Lang/doc	1380761987	2026-10-17T18:35:04Z
 Template:Lang/italicize	1246408768	2024-09-18T19:39:58Z
 Template:Lang/with italics	1336238797	2026-02-02T17:47:58Z
@@ -4843,6 +4888,7 @@ Template:Magic word	1333243106	2026-01-16T15:38:16Z
 Template:Magic word link	1372074394	2026-08-30T04:31:38Z
 Template:Magnify icon	624334065	2014-09-05T20:46:02Z
 Template:Main	1363280785	2026-07-09T05:15:34Z
+Template:Main article	771512326	2017-03-21T23:21:16Z
 Template:Main if exists	1304301356	2025-08-05T05:53:02Z
 Template:Main if exists/doc	1300145963	2025-07-12T14:29:05Z
 Template:Main list	1337670336	2026-02-10T20:36:10Z
@@ -4854,6 +4900,7 @@ Template:Maintenance category	1350939086	2026-04-24T23:43:17Z
 Template:Make code	895492498	2019-05-04T16:47:08Z
 Template:Malformed template	1339470353	2026-02-20T18:52:42Z
 Template:Manila MRT station code	1360145635	2026-06-19T14:49:01Z
+Template:Manual of Style	1379726121	2026-10-11T16:04:26Z
 Template:Map scale	1249951723	2024-10-07T17:59:46Z
 Template:Map scale/doc	1249578985	2024-10-05T17:15:40Z
 Template:MapLibrary	643222591	2015-01-19T16:44:10Z
@@ -4894,7 +4941,9 @@ Template:Mbox templates see also	1369812064	2026-08-17T09:11:09Z
 Template:Mbox templates see also/doc	983587755	2020-10-15T02:43:23Z
 Template:Mbox templates/doc	1316693193	2025-10-14T00:15:49Z
 Template:Mbox/doc	1365162993	2026-07-20T17:32:47Z
+Template:Mby	1288290514	2025-05-01T18:00:42Z
 Template:Mdash	972243407	2020-08-11T01:19:29Z
+Template:Mdashb	1136751506	2023-01-31T23:25:06Z
 Template:Meat-stub	821202493	2018-01-19T00:31:23Z
 Template:MedTalkheader	1324101562	2025-11-25T15:18:21Z
 Template:MedTalkheader/doc	1158638246	2023-06-05T08:59:20Z
@@ -4955,6 +5004,7 @@ Template:Ml-lua	1136626131	2023-01-31T08:23:07Z
 Template:Mlk	1272502305	2025-01-28T23:28:16Z
 Template:Mlx	1126736140	2022-12-10T23:52:31Z
 Template:Mnl	248899104	2008-10-31T22:21:17Z
+Template:MoS guideline	1351103488	2026-04-25T23:32:45Z
 Template:Mobile link	1167134300	2023-07-25T22:21:11Z
 Template:Mobile link/doc	1272512309	2025-01-29T00:39:55Z
 Template:Mod	1233041811	2024-07-06T23:47:24Z
@@ -4974,6 +5024,7 @@ Template:MolBioTalkheader/doc	953169024	2020-04-26T01:31:16Z
 Template:Mono	920965783	2019-10-13T01:15:06Z
 Template:Mono/styles.css	886049734	2019-03-04T00:01:15Z
 Template:Monospace	591981330	2014-01-23T05:24:38Z
+Template:More	827708835	2018-02-26T07:19:19Z
 Template:More detail needed	987068841	2020-11-04T18:36:42Z
 Template:More detail needed/doc	1358259128	2026-06-07T16:28:15Z
 Template:Morethan	1379255936	2026-10-08T22:17:18Z
@@ -5136,6 +5187,7 @@ Template:Navy/core	1067285941	2022-01-22T17:59:38Z
 Template:Nay	1312161614	2025-09-19T01:16:59Z
 Template:Nayc	1232214109	2024-07-02T15:33:28Z
 Template:Nbhyph	1195183453	2024-01-12T17:59:51Z
+Template:Nbs	1287355649	2025-04-25T17:59:50Z
 Template:Nbsp	869606862	2018-11-19T18:04:40Z
 Template:Nbt	1131028777	2023-01-02T05:35:41Z
 Template:Nbt links	1346784666	2026-04-02T22:08:03Z
@@ -5258,12 +5310,15 @@ Template:NoteFoot	1305597422	2025-08-13T01:12:08Z
 Template:NoteFoot/doc	1191955958	2023-12-26T20:13:35Z
 Template:NoteTag	1305596636	2025-08-13T01:05:19Z
 Template:NoteTag/doc	1222648381	2024-05-07T03:39:50Z
+Template:Notefoot	1038626933	2021-08-13T17:59:27Z
 Template:Notelist	1323680032	2025-11-23T04:31:33Z
 Template:Notelist-lg	892829020	2019-04-17T04:28:44Z
 Template:Notelist-lr	1366753244	2026-07-30T00:37:35Z
+Template:Notelist-ua	1048183402	2021-10-04T17:59:49Z
 Template:Notelist-ur	1359861096	2026-06-17T18:00:20Z
 Template:Notelist/doc	1363467295	2026-07-10T10:42:02Z
 Template:Noteslist	1051978410	2021-10-26T17:22:58Z
+Template:Notetag	1046925967	2021-09-28T03:39:40Z
 Template:Nothing	1214622833	2024-03-20T02:43:48Z
 Template:Nothing/doc	1314263526	2025-09-30T14:29:48Z
 Template:Notice	1331766858	2026-01-08T02:16:18Z
@@ -5283,6 +5338,7 @@ Template:Np	1349617604	2026-04-18T04:04:27Z
 Template:Np2	1153181480	2023-05-04T18:00:12Z
 Template:Ns has subpages	1074822270	2022-03-02T10:43:18Z
 Template:Ns has subpages/doc	1243133886	2024-08-30T18:23:15Z
+Template:Nsmdns	1348100762	2026-04-10T18:00:24Z
 Template:Num	1267593247	2025-01-05T20:31:17Z
 Template:Number link	1267593245	2025-01-05T20:31:17Z
 Template:Number link/doc	1374778679	2026-09-14T01:43:07Z
@@ -5319,6 +5375,7 @@ Template:Official URL/doc	1363242288	2026-07-08T23:18:47Z
 Template:Official website	1323412465	2025-11-21T16:07:35Z
 Template:Ofsted	827251077	2018-02-23T17:02:48Z
 Template:Okay	1233940599	2024-07-11T18:44:59Z
+Template:Okina	1203539617	2024-02-05T02:59:35Z
 Template:Old DRV	1084641083	2022-04-25T18:23:14Z
 Template:Old DRV/doc	1267792733	2025-01-06T18:42:20Z
 Template:Old MfD	1149656508	2023-04-13T16:05:00Z
@@ -5380,6 +5437,8 @@ Template:Other category-header templates	1317257159	2025-10-17T05:48:58Z
 Template:Other category-header templates/doc	953297436	2020-04-26T18:01:51Z
 Template:Other stars by Bayer designation	1304070395	2025-08-03T19:58:06Z
 Template:Other stars by Bayer designation/doc	1304119769	2025-08-04T03:13:34Z
+Template:Other uses	1284734559	2025-04-09T11:36:35Z
+Template:Other uses/doc	1314426614	2025-10-01T10:50:33Z
 Template:Outdated as of	1144621483	2023-03-14T18:00:08Z
 Template:Outdated as of/doc	953297622	2020-04-26T18:02:49Z
 Template:Outdated statistic	1363806394	2026-07-12T15:34:35Z
@@ -5587,9 +5646,13 @@ Template:Post-nominals/AUS	1253918662	2024-10-28T15:31:13Z
 Template:Post-nominals/GBR	1337107936	2026-02-07T15:17:31Z
 Template:Post–Cold War tanks	1357325030	2026-06-02T00:41:05Z
 Template:Pp	1372164612	2026-08-30T17:52:03Z
+Template:Pp-move	1372159073	2026-08-30T17:19:31Z
 Template:Pp-move-indef	1372166608	2026-08-30T18:04:35Z
 Template:Pp-protected	1372164573	2026-08-30T17:51:50Z
+Template:Pp-semi	1372164578	2026-08-30T17:51:53Z
+Template:Pp-semi-indef	1372159213	2026-08-30T17:19:59Z
 Template:Pp-template	1372159297	2026-08-30T17:20:15Z
+Template:Pp-vandalism	1372159153	2026-08-30T17:19:45Z
 Template:Pre	1361694400	2026-06-29T14:46:36Z
 Template:Pre/styles.css	1195917819	2024-01-15T20:21:34Z
 Template:PreCode	1374120648	2026-09-10T00:04:30Z
@@ -5627,6 +5690,7 @@ Template:Pronunciation needed/doc	1366571452	2026-07-28T20:16:16Z
 Template:Property	1001201113	2021-01-18T17:59:51Z
 Template:Proposed deletion templates	1353144293	2026-05-08T13:10:09Z
 Template:Proprietary	1233937575	2024-07-11T18:23:04Z
+Template:Protected due to vandalism	1372160494	2026-08-30T17:26:42Z
 Template:Protected page	1372160490	2026-08-30T17:26:39Z
 Template:Protected page maintenance message	1325547403	2025-12-03T18:19:03Z
 Template:Protected page maintenance message/doc	1302345174	2025-07-24T21:04:36Z
@@ -5671,6 +5735,8 @@ Template:Quotation	1265023749	2024-12-24T17:59:56Z
 Template:Quotation templates	1325618182	2025-12-04T03:56:03Z
 Template:Quotation templates/doc	1153074490	2023-05-04T02:04:33Z
 Template:Quote	1265023752	2024-12-24T17:59:57Z
+Template:Quote article content	1314336368	2025-09-30T21:53:24Z
+Template:Quote article content/styles.css	1318741371	2025-10-25T18:39:06Z
 Template:Quote box	1348902079	2026-04-14T21:22:18Z
 Template:Quote box/styles.css	1378946888	2026-10-07T01:45:33Z
 Template:Quote hadith	965889597	2020-07-04T01:10:22Z
@@ -5680,7 +5746,21 @@ Template:Quote tweet/doc	1180293542	2023-10-15T18:33:44Z
 Template:QuoteTranslation	1372926719	2026-09-03T00:50:42Z
 Template:QuoteTranslation/doc	1372926799	2026-09-03T00:51:07Z
 Template:R	1380062808	2026-10-13T15:17:57Z
+Template:R from airport code	985158792	2020-10-24T09:25:49Z
+Template:R from alternative name	1322077562	2025-11-14T06:29:06Z
+Template:R from alternative name/doc	1369858710	2026-08-17T16:48:25Z
+Template:R from ambiguous term/demo	985159374	2020-10-24T09:32:01Z
+Template:R from move	1099616852	2022-07-21T18:41:22Z
+Template:R from move/doc	1355586928	2026-05-22T19:06:13Z
+Template:R from move/except	1222805690	2024-05-08T00:57:29Z
+Template:R from subtopic	1238234067	2024-08-02T20:38:15Z
+Template:R printworthy	1173531202	2023-09-03T01:35:31Z
+Template:R protected	1348130667	2026-04-10T21:42:21Z
+Template:R protected/template	1332276888	2026-01-10T23:38:19Z
 Template:R template index	1373018162	2026-09-03T14:57:41Z
+Template:R to section	1374567381	2026-09-12T20:57:38Z
+Template:R to section/doc	1375223737	2026-09-16T14:54:49Z
+Template:R unprintworthy	1364222927	2026-07-15T07:08:23Z
 Template:R/doc	1381034801	2026-10-19T16:08:55Z
 Template:R/superscript	1377851747	2026-10-01T14:34:28Z
 Template:R/superscript/doc	1183668283	2023-11-05T20:03:30Z
@@ -5748,14 +5828,19 @@ Template:Redir	821203719	2018-01-19T00:32:53Z
 Template:Redirect	827943535	2018-02-27T17:34:09Z
 Template:Redirect category printworthiness	1334743867	2026-01-25T11:41:00Z
 Template:Redirect category printworthiness/doc	1250798813	2024-10-12T15:50:03Z
+Template:Redirect category shell	1381776850	2026-10-24T19:12:16Z
+Template:Redirect category shell/doc	1376432207	2026-09-24T03:10:41Z
 Template:Redirect other	1320437850	2025-11-04T18:00:26Z
 Template:Redirect other/doc	1317690354	2025-10-19T13:23:10Z
+Template:Redirect template	1305417794	2025-08-11T23:33:23Z
 Template:Redirect-distinguish	1366753288	2026-07-30T00:37:58Z
 Template:Redirect-distinguish-for	1106213566	2022-08-23T17:48:34Z
 Template:Redirect-distinguish-text	1363565596	2026-07-11T00:51:17Z
 Template:Redirect-multi	1304081527	2025-08-03T21:26:57Z
 Template:Redirect-multi/doc	1138828497	2023-02-11T21:30:36Z
 Template:Redirect1	361421363	2010-05-11T05:37:54Z
+Template:Redirect2	1039341517	2021-08-18T04:34:24Z
+Template:Redirects	819686223	2018-01-10T19:17:27Z
 Template:Redirects here	1300651658	2025-07-15T16:26:33Z
 Template:Ref	1278847668	2025-03-04T23:45:03Z
 Template:Ref label	1232627893	2024-07-04T18:52:25Z
@@ -5828,6 +5913,7 @@ Template:Resize/doc/main	1049242521	2021-10-10T18:07:59Z
 Template:Resolve category redirect	1014909673	2021-03-29T18:23:59Z
 Template:Resolved comments	508507599	2012-08-21T20:08:24Z
 Template:Resolved comments/doc	1251348588	2024-10-15T18:25:17Z
+Template:Respell	787004057	2017-06-22T21:11:34Z
 Template:Respond	1333476824	2026-01-18T00:57:44Z
 Template:Responding to ping	1352863937	2026-05-06T18:00:52Z
 Template:Restricted use	1332146564	2026-01-10T03:40:09Z
@@ -5943,6 +6029,7 @@ Template:Safety resources	1333620027	2026-01-18T21:11:48Z
 Template:Safety resources/doc	1295708706	2025-06-15T10:47:41Z
 Template:Sailing Barge	1349938484	2026-04-19T15:29:14Z
 Template:Sailing Vessel	1349939859	2026-04-19T15:37:12Z
+Template:Saltillo	1132237488	2023-01-07T22:52:54Z
 Template:Samp	1227066816	2024-06-03T13:55:20Z
 Template:Sandbox location	656998598	2015-04-18T05:53:43Z
 Template:Sandbox other	1304295879	2025-08-05T04:52:35Z
@@ -6017,6 +6104,7 @@ Template:See also-text	1051458873	2021-10-23T16:41:46Z
 Template:See also-text/doc	1347679895	2026-04-08T03:03:39Z
 Template:See also/doc	1375830425	2026-09-20T09:40:37Z
 Template:See section	760447205	2017-01-17T01:22:48Z
+Template:Seealso	1153835438	2023-05-08T16:21:16Z
 Template:Seiner Majestät Schiff	1349939260	2026-04-19T15:33:34Z
 Template:Seiner Majestät Unterseeboot	1349940310	2026-04-19T15:39:59Z
 Template:Select language	1074176364	2022-02-26T21:05:43Z
@@ -6028,6 +6116,7 @@ Template:Self-contradictory/doc	1363686489	2026-07-11T18:25:54Z
 Template:Self-reference	1147353328	2023-03-30T11:42:06Z
 Template:Selfref	1271787984	2025-01-25T18:35:17Z
 Template:Semantic markup templates	1381450291	2026-10-22T16:05:30Z
+Template:Semi-protected indefinitely	1372160529	2026-08-30T17:26:51Z
 Template:Sent off	1357912391	2026-06-05T12:19:09Z
 Template:Sentence fragment	1011689223	2021-03-12T07:53:55Z
 Template:Sentence fragment/doc	1365767658	2026-07-24T08:45:48Z
@@ -6074,6 +6163,7 @@ Template:Sg	475962170	2012-02-09T15:59:08Z
 Template:Shade	1377209614	2026-09-28T09:01:22Z
 Template:Ship	1217939126	2024-04-08T20:01:26Z
 Template:Ship/doc/fixed prefix: TemplateData	830708116	2018-03-16T13:48:49Z
+Template:Short	769931058	2017-03-12T12:58:32Z
 Template:Short URL box	1322489799	2025-11-16T14:18:03Z
 Template:Short description	1336605381	2026-02-04T19:08:44Z
 Template:Short description/doc	1380606044	2026-10-16T19:55:22Z
@@ -6111,6 +6201,7 @@ Template:Sidebar or footer	902227919	2019-06-17T12:49:19Z
 Template:Sidebar or footer/doc	1375855874	2026-09-20T14:09:39Z
 Template:Sidebar or footer/example	902228185	2019-06-17T12:51:37Z
 Template:Sidebar person	1381394527	2026-10-22T04:26:06Z
+Template:Sidebar person/US President	1378071100	2026-10-02T20:19:57Z
 Template:Sidebar person/doc	1378690965	2026-10-05T18:20:40Z
 Template:Sidebar person/styles.css	1157919884	2023-05-31T20:13:26Z
 Template:Sidebar punctuation marks	929358149	2019-12-05T08:47:17Z
@@ -6144,6 +6235,7 @@ Template:Single namespace/doc	1226131760	2024-05-28T18:54:56Z
 Template:Single notice	1231887546	2024-06-30T20:30:24Z
 Template:Single notice links	1373983015	2026-09-09T03:14:39Z
 Template:Single notice/doc	1332788845	2026-01-13T21:47:49Z
+Template:Single+double	872211753	2018-12-05T22:04:58Z
 Template:Single+space	872211979	2018-12-05T22:06:40Z
 Template:Singles	1273725980	2025-02-03T18:32:14Z
 Template:Sister project	1346659747	2026-04-02T03:01:25Z
@@ -6209,6 +6301,8 @@ Template:Space	1139228077	2023-02-14T01:26:39Z
 Template:Space comparison	1309666559	2025-09-05T10:12:01Z
 Template:Space force	951853674	2020-04-19T07:28:17Z
 Template:Space force/core	1249978211	2024-10-07T20:49:04Z
+Template:Space+apostrophe+s	1365457636	2026-07-22T15:03:02Z
+Template:Space+double	872298900	2018-12-06T13:54:43Z
 Template:Space+single	872298952	2018-12-06T13:55:11Z
 Template:Spaced en dash	1338737046	2026-02-16T22:55:52Z
 Template:Spaced en dash space	827251175	2018-02-23T17:02:56Z
@@ -6374,12 +6468,15 @@ Template:Stublist/doc	1158178157	2023-06-02T12:12:29Z
 Template:Stublistbottom	617375298	2014-07-17T21:45:31Z
 Template:Stublisttop	1179803704	2023-10-12T14:57:39Z
 Template:Style	1379725829	2026-10-11T16:01:57Z
+Template:Style wide	640431949	2014-12-31T21:37:11Z
+Template:Style-guideline	710562789	2016-03-17T18:11:19Z
 Template:Style/styles.css	1282366190	2025-03-25T23:54:58Z
 Template:Su	827245644	2018-02-23T16:30:23Z
 Template:Sub	772120923	2017-03-25T12:38:47Z
 Template:Sub/doc	1379258475	2026-10-08T22:43:05Z
 Template:Subarticle	819689505	2018-01-10T19:26:02Z
 Template:Subarticle/doc	1260340246	2024-11-30T05:51:38Z
+Template:Subcat guideline	1137422038	2023-02-04T15:44:55Z
 Template:Subinfobox bodystyle	1273589694	2025-02-03T02:27:15Z
 Template:Subinfobox bodystyle/doc	1330146152	2025-12-29T18:57:37Z
 Template:Subinfobox bodystyle/styles.css	1300999291	2025-07-17T15:28:55Z
@@ -6394,6 +6491,7 @@ Template:Subpages/doc	1251348720	2024-10-15T18:26:00Z
 Template:Subscription required	827245669	2018-02-23T16:30:25Z
 Template:Subsections	1357054943	2026-05-31T13:58:11Z
 Template:Subsections/doc	1357233798	2026-06-01T14:13:21Z
+Template:Subsidebar bodystyle	804531886	2017-10-09T16:52:36Z
 Template:Subst only	1320389610	2025-11-04T11:40:16Z
 Template:Substituted	1095568495	2022-06-29T03:52:53Z
 Template:Substitution	1364237417	2026-07-15T10:29:59Z
@@ -6765,6 +6863,7 @@ Template:Template link with bold	1046926165	2021-09-28T03:40:57Z
 Template:Template link with link off	989853150	2020-11-21T12:06:17Z
 Template:Template link with linked braces	1284650727	2025-04-08T21:54:01Z
 Template:Template link with magic	1226760260	2024-06-01T17:14:50Z
+Template:Template link with magic nested	1226760680	2024-06-01T17:18:46Z
 Template:Template link with parameters	989852922	2020-11-21T12:04:32Z
 Template:Template link with subst	989853227	2020-11-21T12:06:47Z
 Template:Template link with subst and link off	1339238851	2026-02-19T17:31:42Z
@@ -6851,6 +6950,7 @@ Template:Thin space	1034940986	2021-07-22T18:00:13Z
 Template:Thinsp	827251305	2018-02-23T17:03:07Z
 Template:Thinspace	1034892663	2021-07-22T11:50:44Z
 Template:This	821204557	2018-01-19T00:34:00Z
+Template:This is a redirect/rcat	1376825381	2026-09-26T13:00:16Z
 Template:This user talk	1060726673	2021-12-17T08:26:10Z
 Template:This user talk/doc	1241229751	2024-08-20T02:04:03Z
 Template:Thread retitled	1288732823	2025-05-04T14:15:36Z
@@ -6885,6 +6985,7 @@ Template:Tlf	950726704	2020-04-13T14:42:57Z
 Template:Tlg	989730889	2020-11-20T18:19:26Z
 Template:Tlg/doc	989730896	2020-11-20T18:19:27Z
 Template:Tlm	1226759827	2024-06-01T17:11:39Z
+Template:Tlmn	1226760010	2024-06-01T17:13:00Z
 Template:Tln	1112645197	2022-09-27T09:52:19Z
 Template:Tlnull	1101963147	2022-08-02T17:59:52Z
 Template:Tlp	761532023	2017-01-23T13:35:17Z
@@ -6976,6 +7077,7 @@ Template:Transclude excerpts as random slideshow/doc	1304646080	2025-08-07T08:42
 Template:Transclude excerpts as random slideshow/style.css	987512734	2020-11-07T14:59:05Z
 Template:Transclude files as random slideshow	1022449397	2021-05-10T15:43:43Z
 Template:Transclude files as random slideshow/doc	1297460807	2025-06-26T09:25:27Z
+Template:Transclude lead excerpt	1051978702	2021-10-26T17:24:13Z
 Template:Transclude linked excerpts as random slideshow	851709012	2018-07-24T02:48:45Z
 Template:Transclude linked excerpts as random slideshow/doc	1304646141	2025-08-07T08:43:41Z
 Template:Transclude list item excerpts as random slideshow	875269556	2018-12-25T03:21:25Z
@@ -7532,6 +7634,7 @@ Template:WikiData template link/doc	1150700642	2023-04-19T17:10:41Z
 Template:WikiIPA	934239901	2020-01-05T13:25:45Z
 Template:WikiIPA/doc	1138272088	2023-02-08T20:48:51Z
 Template:WikiProject Amusement Park templates	1347961170	2026-04-09T21:11:19Z
+Template:WikiProject Infoboxes sidebar	1328648321	2025-12-21T01:47:13Z
 Template:WikiProject Userboxes navbox	1380449445	2026-10-15T19:43:55Z
 Template:WikiProject Women/See also	1283461037	2025-04-01T17:23:27Z
 Template:WikiProject Women/See also/doc	1231811366	2024-06-30T11:38:19Z
@@ -7568,6 +7671,7 @@ Template:Wikipedia editor navigation templates	1345711744	2026-03-27T18:00:26Z
 Template:Wikipedia help pages	1378826729	2026-10-06T09:50:32Z
 Template:Wikipedia logs	1349613297	2026-04-18T03:37:38Z
 Template:Wikipedia logs/doc	1319258528	2025-10-28T18:42:59Z
+Template:Wikipedia policies and guidelines	1378826773	2026-10-06T09:50:57Z
 Template:Wikipedia referencing	1353609729	2026-05-11T08:24:19Z
 Template:Wikipedia technical help	1374243141	2026-09-10T19:31:14Z
 Template:Wikipedia template messages	1049418041	2021-10-11T18:36:42Z
@@ -7593,6 +7697,7 @@ Template:Wrapper	1364070936	2026-07-14T08:31:46Z
 Template:Wrapper template	1126499247	2022-12-09T17:43:15Z
 Template:Wraps infobox	1329480011	2025-12-26T07:55:43Z
 Template:Wraps infobox/doc	1316592547	2025-10-13T10:55:16Z
+Template:Writing guides	1331319289	2026-01-05T19:27:45Z
 Template:WsPSM	1265920256	2024-12-29T07:29:27Z
 Template:WsPSM/doc	1266353885	2024-12-31T05:59:10Z
 Template:WsPSM2	918682462	2019-09-29T21:16:38Z
@@ -7605,6 +7710,8 @@ Template:Xref	1285935913	2025-04-16T18:00:30Z
 Template:Xt	1346807356	2026-04-03T01:40:33Z
 Template:Xtag	1300163696	2025-07-12T16:44:11Z
 Template:Xtd	1346807701	2026-04-03T01:42:41Z
+Template:Xtg	1346832099	2026-04-03T05:45:20Z
+Template:Xtn	1346807801	2026-04-03T01:43:15Z
 Template:Xtn2	1346807754	2026-04-03T01:43:02Z
 Template:Xy	1344040630	2026-03-17T23:05:22Z
 Template:Xy/doc	1344047161	2026-03-18T00:08:35Z
@@ -7636,6 +7743,7 @@ Template:Yearly archive list/display	1078978564	2022-03-24T09:57:12Z
 Template:Years or months ago	1043258954	2021-09-09T05:28:30Z
 Template:Years or months ago/doc	1191971270	2023-12-26T22:09:53Z
 Template:Yellow	819689852	2018-01-10T19:26:26Z
+Template:Yellow aye	1288290525	2025-05-01T18:00:46Z
 Template:Yellow card	1357912326	2026-06-05T12:18:08Z
 Template:Yes	1377850257	2026-10-01T14:20:13Z
 Template:Yes C	1379544181	2026-10-10T16:24:52Z
@@ -7661,7 +7769,9 @@ Template:Yybottom	1147421744	2023-03-30T21:07:08Z
 Template:Yyend	1147294477	2023-03-30T00:41:14Z
 Template:Yytop	1147294431	2023-03-30T00:40:55Z
 Template:Zero width joiner	1279541347	2025-03-09T04:05:07Z
+Template:Zero width joiner em dash zero width non joiner	1349618293	2026-04-18T04:09:13Z
 Template:Zero width space	1258883149	2024-11-22T04:18:37Z
+Template:Zh	777495799	2017-04-27T14:29:36Z
 Template:Zwj	814084196	2017-12-06T20:32:30Z
 Template:Zwsp	827246208	2018-02-23T16:31:07Z
 Template:\	695047466	2015-12-13T11:55:37Z
@@ -7672,3 +7782,9 @@ Template:±	1293696376	2025-06-03T05:35:04Z
 Template:±/doc	953420195	2020-04-27T06:14:03Z
 Template:·	1183717521	2023-11-06T02:10:31Z
 Template:•	405162894	2010-12-31T13:24:53Z
+Wikipedia:Citing sources	1380917297	2026-10-18T19:35:53Z
+Wikipedia:Main Page/styles.css	1381076528	2026-10-19T21:32:36Z
+Wikipedia:Manual of Style	1381654087	2026-10-23T22:40:02Z
+Wikipedia:Manual of Style/Infoboxes	1380907259	2026-10-18T18:06:57Z
+Wikipedia:Manual of Style/Layout	1380775522	2026-10-17T20:21:35Z
+Wikipedia:Manual of Style/Lead section	1378853728	2026-10-06T14:29:31Z

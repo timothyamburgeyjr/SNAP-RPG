@@ -46,3 +46,8 @@ __NOTOC__ __NOEDITSECTION__
 <div class="snap-box-title" role="heading" aria-level="2">Free, with optional extras</div>
 The rules and every setting are free here. Printed books, merch and an optional MCP service are extras.
 </div>
+<templatestyles src="SNAP:Main Page/styles.css" />
+<div id="mp-bottom" class="mp-box">
+<h2 id="mp-other" class="mp-h2">Other areas of SNAP</h2>
+<div id="mp-other-content">{{Other areas of SNAP}}</div>
+</div>

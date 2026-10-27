@@ -76,3 +76,8 @@ html.skin-theme-clientpref-day .mw-body-content h2 {
 		color: #39434c;
 	}
 }
+
+/* Footer: a small gap between "Powered by MediaWiki" and the ORC licence badge (Vector gives 6px) */
+#footer-icons #footer-licenceico {
+	margin-left: 8px;
+}

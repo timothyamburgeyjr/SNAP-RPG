@@ -11,6 +11,8 @@ it came from is recorded in wiki/wikipedia-imports.tsv: that file is the attribu
 (Wikipedia text is CC BY-SA 4.0) and lets the same versions be re-imported later.
 
 Pages already listed in the TSV are skipped, so local changes are never overwritten.
+Wikipedia's project pages ("Wikipedia:Manual of Style") are imported into this wiki's project
+namespace ("SNAP:Manual of Style") with their content unchanged; the TSV keeps the Wikipedia title.
 """
 import csv
 import re
@@ -96,6 +98,13 @@ def docker(*args, **kw):
                           encoding="utf-8", **kw)
 
 
+PROJECT = "SNAP"   # this wiki's project namespace: Wikipedia:X pages are imported as SNAP:X
+
+
+def local_title(title):
+    return PROJECT + title[len("Wikipedia"):] if title.startswith("Wikipedia:") else title
+
+
 def main(requested):
     done = recorded()
     wanted = set()
@@ -103,12 +112,16 @@ def main(requested):
         deps = dependencies(title)
         print(f"{title}: {len(deps)} pages incl. dependencies")
         wanted |= deps
+        if title.startswith("Wikipedia:"):
+            wanted.add(title)     # project pages themselves (dependencies() keeps only templates/modules)
     todo = sorted(wanted - done.keys())
     print(f"{len(wanted)} pages needed, {len(wanted) - len(todo)} already imported, {len(todo)} to import")
 
     for i in range(0, len(todo), BATCH):
         chunk = todo[i:i + BATCH]
         xml = export(chunk)
+        # Wikipedia's project pages (Wikipedia:X) become this wiki's project pages (SNAP:X); content unchanged
+        xml = re.sub(r"<title>Wikipedia:", f"<title>{PROJECT}:", xml)
         with tempfile.NamedTemporaryFile("w", suffix=".xml", delete=False, encoding="utf-8") as f:
             f.write(xml)
         cp = docker("cp", f.name, "mediawiki:/tmp/wp-import.xml")
@@ -122,6 +135,8 @@ def main(requested):
         for page in re.finditer(r"<page>.*?<title>(.*?)</title>.*?<revision>\s*<id>(\d+)</id>.*?"
                                 r"<timestamp>(.*?)</timestamp>", xml, re.S):
             title = page.group(1).replace("&amp;", "&").replace("&quot;", '"').replace("&#039;", "'")
+            if title.startswith(PROJECT + ":"):
+                title = "Wikipedia" + title[len(PROJECT):]     # the record keeps Wikipedia's own title
             done[title] = {"title": title, "wikipedia_revid": page.group(2), "wikipedia_timestamp": page.group(3)}
         save_record(done)
         print(f"  imported {min(i + BATCH, len(todo))}/{len(todo)}")

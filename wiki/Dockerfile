@@ -92,5 +92,15 @@ RUN set -eux; \
         rm "$1.tar.gz"; \
     done
 
+# Cargo 3.9.4: structured data (population and lineage registers) stored from templates and queried.
+# Cargo has no 1.43 bundle (it follows "master" compatibility); 3.9.4 requires MediaWiki >= 1.42.
+# Pinned to the 3.9.4 release commit + checksum, from Wikimedia's GitHub mirror.
+RUN set -eux; \
+    curl -fsSL -o /tmp/Cargo.tar.gz "https://codeload.github.com/wikimedia/mediawiki-extensions-Cargo/tar.gz/b3cc797aa8a1575f7ce4a7c5b0a1979698d582f5"; \
+    echo "005301a0f0fac395a9cec340fac0f229d9226974c3c26e80fff3c16015bd21af  /tmp/Cargo.tar.gz" | sha256sum -c -; \
+    mkdir /var/www/html/w/extensions/Cargo; \
+    tar -xzf /tmp/Cargo.tar.gz -C /var/www/html/w/extensions/Cargo --strip-components=1; \
+    rm /tmp/Cargo.tar.gz
+
 # WikibaseStub (ours, local-extensions/): mw.wikibase for Wikipedia's Lua modules, answering "no Wikidata item".
 COPY local-extensions/WikibaseStub /var/www/html/w/extensions/WikibaseStub

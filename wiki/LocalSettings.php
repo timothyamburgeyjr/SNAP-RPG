@@ -99,6 +99,15 @@ $wgLogos = [
 $wgFavicon = "$wgScriptPath/branding/favicon.ico";
 $wgAppleTouchIcon = "$wgScriptPath/branding/apple-touch-icon.png";
 
+## Footer: ORC licence badge, its own group beside "Powered by MediaWiki" (gap set in theme/snap-theme.css)
+$wgFooterIcons['licence']['orc'] = [
+	'src' => "$wgScriptPath/branding/orc-badge-102.svg",
+	'url' => "/wiki/SNAP:Licensing",
+	'alt' => "Licensed under ORC",
+	'width' => 102,
+	'height' => 31,
+];
+
 ## Cream theme: loaded on every page as a ResourceLoader style module
 $wgResourceModules['snap.theme'] = [
 	'localBasePath' => "$IP/theme",
@@ -180,6 +189,17 @@ $wgExtraNamespaces[NS_DRAFT] = 'Draft';
 $wgExtraNamespaces[NS_DRAFT_TALK] = 'Draft_talk';
 $wgNamespaceProtection[NS_PORTAL] = [ 'editcontent' ];
 $wgNamespaceProtection[NS_DRAFT] = [ 'editcontent' ];
+# SNAP's own namespace for the Calador setting. 3000+ is MediaWiki's range for site-specific
+# namespaces, clear of every installed extension (and of Wikibase's usual 120-123 and 146).
+define( 'NS_CALADOR', 3000 );
+define( 'NS_CALADOR_TALK', 3001 );
+$wgExtraNamespaces[NS_CALADOR] = 'Calador';
+$wgExtraNamespaces[NS_CALADOR_TALK] = 'Calador_talk';
+$wgNamespaceProtection[NS_CALADOR] = [ 'editcontent' ];
+$wgContentNamespaces = [ NS_MAIN, NS_CALADOR ];
+$wgNamespacesToBeSearchedDefault[NS_CALADOR] = true;
+$wgNamespacesWithSubpages[NS_CALADOR] = true;
+$wgNamespacesWithSubpages[NS_CALADOR_TALK] = true;
 # And the rest of Wikipedia's article extensions (bundles pinned in the Dockerfile):
 # <timeline> charts, <section>/#lst, <hiero>, <charinsert>, <score> sheet music, <mapframe>/<maplink> maps.
 wfLoadExtensions( [ 'timeline', 'LabeledSectionTransclusion', 'wikihiero', 'CharInsert', 'Score', 'JsonConfig', 'Kartographer' ] );
@@ -246,6 +266,11 @@ $wgShortDescriptionEnableTagline = false;
 
 # <choose uncached> on the Main Page: a new featured pick on every visit.
 wfLoadExtension( 'RandomSelection' );
+
+# Cargo: structured data stored from templates ({{#cargo_declare:}}, {{#cargo_store:}}) and queried
+# with {{#cargo_query:}}; holds the population and lineage registers. Its tables live in the wiki's
+# own database. Default rights: anyone can query; admins can create, recreate and delete tables.
+wfLoadExtension( 'Cargo' );
 
 # OAuth: lets the MCP connector sign in as a wiki account (item 12). Only admins can register
 # and approve apps. The signing keys live in wiki/secrets/ (gitignored), mounted read-only.
