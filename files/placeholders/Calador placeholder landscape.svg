@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="450" viewBox="0 0 600 450">
+  <rect x="0" y="0" width="600" height="450" fill="#f2f2f2"/>
+  <rect x="6" y="6" width="588" height="438" fill="none" stroke="#999999" stroke-width="4" stroke-dasharray="16 10"/>
+  <text x="300" y="225" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="32" fill="#999999" text-anchor="middle" dominant-baseline="central">Image coming soon</text>
+</svg>

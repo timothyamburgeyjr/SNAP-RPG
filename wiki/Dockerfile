@@ -104,3 +104,10 @@ RUN set -eux; \
 
 # WikibaseStub (ours, local-extensions/): mw.wikibase for Wikipedia's Lua modules, answering "no Wikidata item".
 COPY local-extensions/WikibaseStub /var/www/html/w/extensions/WikibaseStub
+
+# PdfHandler also needs poppler-utils (pdfinfo, pdftotext): without them a PDF gets no page count
+# or size, so no thumbnail. Its own step at the end so the pinned downloads above stay cached.
+RUN set -eux; \
+    apt-get update; \
+    apt-get install -y --no-install-recommends poppler-utils; \
+    rm -rf /var/lib/apt/lists/*
