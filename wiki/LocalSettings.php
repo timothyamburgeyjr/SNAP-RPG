@@ -244,6 +244,8 @@ wfLoadExtensions( [ 'GeoData', 'WikibaseStub' ] );
 # ready-made playable versions, so nothing is converted here; Phonos plays recorded files only.
 wfLoadExtensions( [ 'TimedMediaHandler', 'Phonos' ] );
 $wgEnableTranscode = false;
+# ffmpeg (installed in the Dockerfile) only grabs the poster frame for uploaded WebM/OGV; no transcoding.
+$wgFFmpegLocation = '/usr/bin/ffmpeg';
 $wgPhonosIPARenderingEnabled = false;
 # <math> formulas, rendered the way Wikipedia renders them: MathML with an SVG fallback,
 # produced by Wikimedia's own math service.

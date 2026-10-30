@@ -111,3 +111,13 @@ RUN set -eux; \
     apt-get update; \
     apt-get install -y --no-install-recommends poppler-utils; \
     rm -rf /var/lib/apt/lists/*
+
+# TimedMediaHandler needs ffmpeg (and ffprobe, same package) to make video poster frames; without it
+# an uploaded WebM shows "Error creating thumbnail". Transcoding stays off (see LocalSettings.php).
+# Its own step at the end so the pinned downloads above stay cached.
+RUN set -eux; \
+    apt-get update; \
+    apt-get install -y --no-install-recommends ffmpeg; \
+    rm -rf /var/lib/apt/lists/*; \
+    ffmpeg -version | head -n 1; \
+    test -x /usr/bin/ffprobe
