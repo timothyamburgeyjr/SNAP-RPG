@@ -198,6 +198,7 @@ $wgExtraNamespaces[NS_CALADOR_TALK] = 'Calador_talk';
 $wgNamespaceProtection[NS_CALADOR] = [ 'editcontent' ];
 $wgContentNamespaces = [ NS_MAIN, NS_CALADOR ];
 $wgNamespacesToBeSearchedDefault[NS_CALADOR] = true;
+$wgNamespacesWithSubpages[NS_MAIN] = true;
 $wgNamespacesWithSubpages[NS_CALADOR] = true;
 $wgNamespacesWithSubpages[NS_CALADOR_TALK] = true;
 # And the rest of Wikipedia's article extensions (bundles pinned in the Dockerfile):
